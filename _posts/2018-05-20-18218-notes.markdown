@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Combinatorics of the Grassmannian"
+date:   2018-05-19 15:21:49 -0700
+categories: jekyll update
+---
+
+This past semester, I took [18.218 - Topics in Combinatorics][218site] with Professor Alexander Postnikov. This iteration of the course focused on the combinatorics of the Grassmannian. Through a somewhat surprising sequence of events, I ended up scribing the course (with a lot of help from other students in the class). Following the model of Yufei Zhao's [course notes for 18.S997][997overleaf], I put the notes on an Overleaf document, which can be found [here][218notes]. 
+
+
+I thought it'd be fun to prove oneof the lemmas we used in class
+
+
+
+
+
+[218site]: https://math.mit.edu/~apost/courses/18.218/
+[997overleaf]: https://www.overleaf.com/read/qdwqkgfnrkwr#/40932579/
+[218notes]: https://www.overleaf.com/13853449rbhzybfvnpzx#/53666535/
+
+You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippets:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
