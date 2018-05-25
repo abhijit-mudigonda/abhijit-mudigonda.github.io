@@ -11,8 +11,10 @@ Hm darn this is hard. Also yay here's another post.
 
 ## blahness
 
-{% include thmbox.html thmnum=1 thmtxt="Easy mac bowls are microwaveable. Here's an adjoint $\|\|A^{\\*}\|\|$
-\end{" %} **the** theorem we're done!
+{% include thmbox.html thmnum=1 thmtxt="Easy mac bowls are microwaveable. Here's an adjoint $\|\|A^*}\|\|$" %} 
+
+
+and per **the** theorem we're done!
 
 
 
