@@ -5,10 +5,10 @@ date:   2018-05-19 15:21:49 -0700
 categories: jekyll update
 ---
 
-This past semester, I took [18.218 - Topics in Combinatorics][218site] with Professor Alexander Postnikov. This iteration of the course focused on the combinatorics of the Grassmannian. Through a somewhat surprising sequence of events, I ended up scribing the course (with a lot of help from other students in the class). Following the model of Yufei Zhao's [course notes for 18.S997][997overleaf], I put the notes on an Overleaf document, which can be found [here][218notes]. 
+This past semester, I took [18.218 - Topics in Combinatorics][218site] with Professor Alexander Postnikov. This iteration of the course focused on the combinatorics of the Grassmannian. I was a scribe for the course (with a lot of help from other students in the class), and, following the model of Yufei Zhao's [course notes for 18.S997][997overleaf], I put the notes on an Overleaf document, which can be found [here][218notes]. 
 
 
-I thought it'd be fun to prove oneof the lemmas we used in class
+I thought it'd be fun to prove one of the lemmas we used in class, which  
 
 
 

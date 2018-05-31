@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Testing more tex2markdown"
+date:   2018-05-27 01:28:49 -0700
+categories: jekyll update
+---
+
+{% include thmbox.html thmname='Proposition' thmnum=1 thmtxt="If $f$ is of the form $f(x) = \frac{1}{2}x^TAx - b^Tx$ for positive definite $A$, then $f$ is $\lambda_{max}$-smooth and $\lambda_{min}$-strongly convex." %} <br />
+*Proof*: 
+   $$\frac{||Ax||}{\|x\|} \leq \max(|\lambda_{min}|, \|\lambda_{max}\|) = \lambda_{max}$$ with equality when $x$ is an eigenvector of $A$ with eigenvalue $\lambda_{max}$. A similar argument goes through for the lower bound. 
+
+
+{% include thmbox.html thmname='Theorem' thmnum=1 thmtxt="Strong convexity guarantees a unique optimal $x_*$, and 
+    $$\frac{\mu}{2}\|\|x-x_*\|\|^2 \leq f(x) - f_* \leq \frac{1}{2\mu}\|\|\nabla f(x)\|\|_*^2$$" %}
+
+Note that here we abuse notation and use $\|\|\cdot\|\|$ to refer to the dual norm and $x_*$ to refer to the unique argmin. 
+
+*Proof*: 
+    That strong convexity guarantees a unique optimal $x_*$ is immediate from the definition. 
+
+Deriving the second part of the theorem from the definition is an exercise, but is a straightforward computation. 
+
+
+The intuition here is that strong convexity tells us that if the gradient is small, then we're close to the unique optimum in both $x$-distance and $f(x)$-distance. Without these bounds, it's possible that we have a small gradient that goes on for a long time, and thus a small gradient doesn't tell us that we're near the point in function or $x$ distance. With strong convexity, we know that a small gradient "cannot lasst", and so we know that our minimum must be nearby. 
+
+
