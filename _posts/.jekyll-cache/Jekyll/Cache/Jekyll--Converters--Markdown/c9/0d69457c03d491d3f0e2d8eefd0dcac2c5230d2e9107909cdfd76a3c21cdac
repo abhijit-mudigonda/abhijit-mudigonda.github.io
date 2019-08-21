@@ -1,0 +1,253 @@
+I"V5<h2 id="hilbert-spaces">Hilbert Spaces</h2>
+
+<h1 id="pre-hilbert-spaces">pre-Hilbert Spaces</h1>
+
+<p>A <strong>pre-Hilbert space</strong> is a vector space that has a positive-definite
+Hermitian inner product</p>
+
+<p>Let’s define $||u|| = {\left\langle u,u \right\rangle}^{\frac{1}{2}}$</p>
+
+<p>[Cauchy-Schwarz Inequality]
+<script type="math/tex">{\left\langle u,v \right\rangle} \leq  ||u||||v|| \forall  u,v \in \mathcal{H}</script></p>
+
+<p>Consider $||u+sv||^2$. By positivity, we know <script type="math/tex">||u+sv||^2 \geq 0</script>
+We’ll show that when this expression is minimized as a function of $s$,
+we get the “tighest” possible inequality,</p>
+
+<script type="math/tex; mode=display">0 \leq ||u+sv||^2 = ||u|| + 2s\text{Re}{\left\langle u,v \right\rangle} + s^2||v||^2</script>
+
+<p>This is minimized when</p>
+
+<script type="math/tex; mode=display">2s||v||^2 + 2\text{Re}{\left\langle u,v \right\rangle} = 0</script>
+
+<script type="math/tex; mode=display">s = -\frac{\text{Re}{\left\langle u,v \right\rangle}}{||v||^2}</script>
+
+<p>Therefore,
+<script type="math/tex">||u||^2 - s\text{Re}{\left\langle u,v \right\rangle} \geq 0  \implies ||u||^2 - \frac{(\text{Re}{\left\langle u,v \right\rangle}^2}{||v||^2} \geq 0 \implies |\text{Re}{\left\langle u,v \right\rangle}| \leq ||u||||v||</script></p>
+
+<p>This is almost what we want, but for the real part. We can resolve this
+by “rotating” $u$ by multiplying it by some $z$ of norm $1$ such that
+$\text{Re}{\left\langle u,v \right\rangle} = |{\left\langle u,v \right\rangle}|$</p>
+
+<p>The inner product is continuous on the metric space $H \times H$</p>
+
+<p>Because we’re a metric space, sequential continuity is equivalent to
+continuity. Let’s start by assuming that $(u_n,v_n) \rightarrow (u,v)$
+<script type="math/tex">|{\left\langle u,v \right\rangle} - {\left\langle u_n,v_n \right\rangle}| \leq |{\left\langle u,v \right\rangle}-{\left\langle u,v_n \right\rangle}|+|{\left\langle u,v_n \right\rangle} + {\left\langle u_n,v_n \right\rangle}| \leq ||u||||v-v_n|| + ||v_n||||u-u_n||</script></p>
+
+<h2 id="hilbert-spaces-1">Hilbert Spaces</h2>
+
+<p>A <strong>Hilbert space</strong> is a pre-Hilbert space that is complete with respect
+to the norm that is induced by the inner product.</p>
+
+<p>A Hilbert space is <strong>separable</strong> if it contains a countable dense subset</p>
+
+<ul>
+  <li>
+    <p>$\mathbb{C}^n$ is a Hilbert space because is a pre-Hilbert space and
+any finite-dimensionalspace is complete</p>
+  </li>
+  <li>
+    <p>$l^2$, square-summable sequences, are complete</p>
+  </li>
+  <li>
+    <p>$L^2(\mathbb{R})$, Lebesgue square-integrable functions modulo
+measure zero things, are complete!</p>
+  </li>
+</ul>
+
+<h2 id="orthonormal-sequences">Orthonormal Sequences</h2>
+
+<p>[Bessel’s Inequality] Let $e_i$ be an orthonormal set in a Hilbert
+space $H$. Then, for any $u \in H$,
+<script type="math/tex">\sum_i |{\left\langle u,  e_i \right\rangle}|^2 \leq ||u||^2</script></p>
+
+<p>We’ll start by considering the case where $e_i$ is a finite orthonormal
+set of cardinality $N$. Then, let
+$v = \sum_i {\left\langle u,e_i \right\rangle}e_i$, and our problem
+above reduces to showing that $||v|| \leq ||u||$. The key observation is
+that ${\left\langle u,v \right\rangle} = ||v||^2$ and so, putting forth
+Cauchy-Schwarz,
+<script type="math/tex">||v||^2 = {\left\langle u,v \right\rangle} \leq ||u||^2</script> and so we’re
+done in the finite-dimensional case. In the infinite-dimensional case,
+because our argument works for any finite $N$, we take supremums and are
+happy!</p>
+
+<h2 id="gram-schmidt-procedure">Gram-Schmidt Procedure</h2>
+
+<p>An orthonormal sequence is said to be <strong>maximal</strong> if
+<script type="math/tex">{\left\langle u,e_i \right\rangle} = 0 \forall i \implies u = 0</script></p>
+
+<p>Every separable Hilbert space contains a maximal orthonormal sequence</p>
+
+<p>Take a countable dense subset. We can use the Gram-Schmidt procedure to
+get a countable dense orthonormal subset such that $v_n$ is in the span
+of ${e_1,  \dots,  e_n}$. We want to show that the ${e_i}$ are
+maximal, meaning that there’s no $u \in H$ orthogonal to all the $e_i$.
+Suppose there is such a $u$. By density of the $v_i$, there exists a
+sequence of $w_i$, where each $w_i \in {v_i}$, such that
+$w_J \rightarrow u$, and thus $||u-w_j|| \rightarrow 0$. But because
+each $w_j$ is in the span of the $e_i$, we have
+<script type="math/tex">||u-w_j|| = ||u||^2+||w_j||^2 \rightarrow 0</script> and thus $||u|| = 0$. We
+used that the cross terms ${\left\langle u,w_j \right\rangle}$ were all
+$0$ because $u$ was orthogonal to the $e_i$ and things in their span.</p>
+
+<h2 id="orthonormal-bases">Orthonormal Bases</h2>
+
+<p>An <strong>orthonormal basis</strong> is the same as a maximal orthonormal set</p>
+
+<p>If ${e_i}$ is an orthornormal basis in a Hilbert space then for any
+element $u \in H$ the Fourier-Bessel series converges to $u$, so
+<script type="math/tex">u = \sum_i {\left\langle u, e_i \right\rangle}e_i</script></p>
+
+<p>Consider the sequence of partial sums
+<script type="math/tex">u_N = \sum_{i=1}^N {\left\langle u, e_i \right\rangle}e_i</script></p>
+
+<p>This is Cauchy, because for any $m, m’$,
+<script type="math/tex">||u_m - u_{m'}|| = ||\sum_{m+1}^{m'} {\left\langle u, e_i \right\rangle}e_i|| = \sum_{m+1}^{m'} {\left\langle u,e_i \right\rangle}^2 \leq \sum_{m+1}^{\infty} {\left\langle u,e_i \right\rangle}^2</script></p>
+
+<p>We can make the RHS as small as we want because otherwise it would
+violate Bessel’s inequality. If it were always larger than some
+$\epsilon$ for all $m$, then we could always advance as many steps as we
+needed to claim that extra $\epsilon$, and then keep going until we
+exceeded $||u||^2$.</p>
+
+<p>Now, because we assume completeness, $u_N \rightarrow w \in H$. We want
+to show that $w = u$. Well, we know that
+${\left\langle u_m, e_i \right\rangle} = {\left\langle u, e_i \right\rangle}$
+once $m \geq i$, and so
+<script type="math/tex">{\left\langle w,e_i \right\rangle} = \lim_{m \rightarrow \infty} {\left\langle u_m, e_i \right\rangle} = {\left\langle u,e_i \right\rangle}</script></p>
+
+<p>and thus ${\left\langle u-w, e_i \right\rangle} = 0 \forall i$. But by
+maximality of our basis this means that $u - w = 0$ as desired.</p>
+
+<h2 id="parallelogram-law">Parallelogram Law</h2>
+
+<p>In any pre-Hilbert space,
+<script type="math/tex">||v+w||^2 + ||v-w||^2 = 2||v||^2 + 2||w||^2</script></p>
+
+<p>Computing, we just win</p>
+
+<script type="math/tex; mode=display">||v - w||^2 = 2||v||^2 + 2||w||^2 - 4{\left\lvert {\left\lvert \frac{v+w}{2} \right\rvert} \right\rvert}^2</script>
+
+<h2 id="convex-sets-and-length-minimizers">Convex sets and length minimizers</h2>
+
+<p>If $C \subset H$ is non-empty, closed, and convex, then there exists a
+unique $v \in C$ closest to the origin such that
+<script type="math/tex">||v|| = \inf_{u \in C} ||u||</script></p>
+
+<p>Consider $d = \inf_{u \in C} ||u||$. By the definition of the infimum of
+a set of real numbers bounded below (in this case by $0$), there’s a
+sequence $v_n \in C$ such that $||v_n|| \rightarrow ||u||$. Let’s start
+by showing that this $v_n$ is Cauchy - if it is, then we’ll have shown
+the existence of $v$ with norm $d$.</p>
+
+<script type="math/tex; mode=display">|v_m - v_{n}|^2 = 2|v_m|^2 + 2|v_n|^2 - 4{\left\lvert \frac{v_m+v_{n}}{2} \right\rvert}^2</script>
+
+<p>Because $|v_n| \rightarrow d$, for some $N$ and all $n &gt; N$
+$|v_n|^2 &lt; d^2 + \frac{\epsilon^2}{2}$ and also because
+$\frac{v_m+v_{m’}}{2} \in C$ we know that
+${\left\lvert \frac{v_m+v_{m’}}{2} \right\rvert} &gt; d^2$ so we get that,
+for $m, n &gt; N$,
+<script type="math/tex">% <![CDATA[
+|v_m - v_n|^2 < 4d^2 + \epsilon^2 - 4d^2 < \epsilon^2 \implies |v_m - v_n| < \epsilon %]]></script></p>
+
+<p>and so ${v_n}$ is Cauchy. By completeness of the Hilbert space, the
+limit exists. By closure of $C$&lt; it’s in $C$. Suppose it isn’t
+unique, and some other $v’$ also has norm $d$ (intuitively in
+$\mathbb{C}^n$ this doesn’t work cause any line between them cuts
+through things with norm too small to be in $C$). Then,
+<script type="math/tex">||v-v'||^2 = 2||v||^2 + 2||v'||^2 - 4{\left\lvert {\left\lvert \frac{v+v'}{2} \right\rvert} \right\rvert}^2 \leq 0</script></p>
+
+<p>where the last inequality is because of convexity</p>
+
+<h2 id="orthocomplements-and-projections">Orthocomplements and projections</h2>
+
+<p>If $W \subset H$ is a linear subspace then $W^{\perp}$ is a closed
+linear subspace and $W \cap W^{\perp} = {0}$. If $W$ is also closed,
+then $H = W \oplus W^{\perp}$</p>
+
+<p>Linearity of $W^{\perp}$ is clear from the linearity of the condition
+that defines it. It’s closed because the inner product is continuous and
+it’s the inverse image of ${0}$. Now, if $W$ was originally closed,
+then so is $u + W$, and furthermore $u+W$ is nonempty (because it
+contains $u$) and compact. Thus, we can put forth our minimization lemma
+to find a unique vector
+<script type="math/tex">v \in u+W \colon ||v|| = \inf_{u' \in u+W} ||u'||</script> We claim that this
+vector is orthogonal to all $w \in W$ (the intuition is that we pull out
+as much “stuff” as we can from $u$ using $W$, and then what’s left is
+orthogonal to $W$ cause otherwise we could pull out more). Let’s show
+this. Pick some $\lambda \in \mathbb{C}$ and $w \in W$</p>
+
+<script type="math/tex; mode=display">||v+\lambda w|| = ||v||^2  + 2\text{Re}(\lambda{\left\langle v,w \right\rangle}) + |\lambda|^2||w||^2</script>
+
+<p>Write $\lambda$ as $\lambda = te^{i\theta}$ and pick $\theta$ such that
+$|{\left\langle v,w \right\rangle}| = \text{Re}({\left\langle v,w \right\rangle})$.
+Now, by minimality of $||v||^2$, we know that
+<script type="math/tex">||v+\lambda w|| = ||v||^2 + 2t|{\left\langle v,w \right\rangle}| + t^2||w||^2 \geq ||v||^2 \implies 2|{\left\langle v,w \right\rangle}| + t||w||^2 \geq 0</script>
+And because we can make $t$ whatever we want, this is satisfied only
+when $||w|| = 0 \implies w = 0$</p>
+
+<h2 id="riesz-theorem">Riesz’ Theorem</h2>
+
+<p>[Riesz’s Theorem] Let $H$ be a Hilbert space and
+$T \colon H \rightarrow \mathbb{C}$ a continuous linear functional.
+Then, there exists a unique element $\phi \in H$ such that for all
+$v \in H$ <script type="math/tex">Tv = {\langle u, \phi \rangle}</script></p>
+
+<p>First, note that the set $T^{-1}({1})$ is closed because it’s the
+inverse image of the singleton ${1}$, and convex by linearity, as if
+$T(u) = T(u’) = 1$, then $T(\frac{u+u’}{2} = 1$. Then, there’s a unique
+minimal element $v \in T^{-1}({1})$. Intuitively, what we’re going to
+show is that, if $T(u) = {\langle u, \phi \rangle}$, then
+$v = \frac{\phi}{||\phi||^2}$.</p>
+
+<p>First, note that by linearity <script type="math/tex">T^{-1}(\{1\}) = \{v + N\}</script>, where $N$
+is the null space of $T$. We claim that $v \in N^{\perp}$. For any
+$w \in N$,
+<script type="math/tex">||v + \lambda w||^2 = ||v||^2 + 2\lambda\text{Re} {\langle v, w \rangle} + ||w||^2</script>
+Because $v+ \lambda w \in T^{-1}({1})$, we have that
+<script type="math/tex">||v + \lambda w||^2 = ||v||^2 + 2\lambda\text{Re} {\langle v, w \rangle} + ||w||^2 \geq ||v||^2</script>
+<script type="math/tex">\implies 2\lambda\text{Re} {\langle v,w \rangle} + ||w||^2 \geq 0</script></p>
+
+<p>Choose $\lambda = te^{i\theta}$ such that
+$\text{Re} {\langle v,w \rangle} = |{\langle v,w \rangle}|$. This just
+requires setting $\theta$ appropriately, “rotating” the complex number
+entirely into the real line. Then, for any $t \in \mathbb{R}$,
+<script type="math/tex">\implies 2t|{\langle v,w \rangle}| + t^2||w|| \geq 0 \implies t(2|{\langle v,w \rangle}| + t||w||) \geq 0</script>
+If $|{\langle v,w \rangle}| \neq 0$ then by choosing $t = -\epsilon$ we
+can make the product negative, so $|{\langle v,w \rangle}| = 0$ and so
+$v \perp N$ as desired.</p>
+
+<p>Now, we’re basically done. Let’s consider, for any $u \in H$, consider
+$u - T(u)v \in H$. Then, <script type="math/tex">T(u-T(u)v) = T(u) - T(u) = 0</script> and so
+$u - T(u)v \in N$ and we can write $u = w + T(u)v$ for all $u$ and some
+$w$. Taking the inner product with $v$,
+<script type="math/tex">{\langle u,v \rangle} = {\langle w,v \rangle} + T(u){\langle v,v \rangle} \implies T(u) = {\langle u,\phi \rangle}</script>
+for $\phi = \frac{v}{||v||}$</p>
+
+<h2 id="adjoint-operators">Adjoint Operators</h2>
+
+<p>Any bounded linear operator $A \colon H \rightarrow H$ has a unique
+adjoint operator $A^* \colon H \rightarrow H$ such that
+${\langle Au,v \rangle} = {\langle u, A^*v \rangle}$, and furthermore
+this operator satisfies $||A|| = ||A^*||$</p>
+
+<p>If $A$ is a bounded linear operator, then ${\langle Au, v \rangle}$ is a
+bounded (ergo continuous) linear functional, as
+${\langle Au,v \rangle} \leq ||Au||||v|| \leq ||A|| ||u|| ||v||$. By
+Riesz’s Theorem, if we fix $u$, then
+<script type="math/tex">{\langle Au,v \rangle} = {\langle u, \phi \rangle}</script> for some unique
+$\phi$. Furthermore, $\phi$ is defined in a linear fashion, so in fact 
+$\phi = A^<em>v$ (because the initial form is bilinear)
+<script type="math/tex">{\langle Au,v \rangle} = {\langle u, A^*v \rangle}</script>, and $A^</em>$ is
+unique again by Riesz.</p>
+
+<p>For the boundedness result, we’ll show that $||A|| \leq ||A^<em>||$.
+<script type="math/tex">||A|| = \sup_{||u|| = 1} {\langle Au, Au \rangle} = \sup_{\substack{||u||=1}{||v||=1}} {\langle Au, v \rangle} = \sup_{\substack{||u||=1}{||v||=1}} {\langle u, A^*v \rangle} \leq ||A^*||</script>
+and we can flip everything to get $||A^</em>|| \leq ||A||$ and thus we have
+equality!</p>
+
+<script type="math/tex; mode=display">\text{Null}(A) = (\text{Im}(A^*))^{\perp}</script>
+
+:ET
