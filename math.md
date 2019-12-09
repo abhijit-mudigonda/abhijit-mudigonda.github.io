@@ -22,7 +22,7 @@ Here are some things I wrote as an undergraduate student.
 My current work, with Professor [Ryan Williams][ryan-williams], is in computational complexity. Specifically, I'm thinking about the following problems:
 
 - **Quantum Complexity Theory**
-    - Can we show that there are problems computable by linear time $$ \mathsf{QMA} $$ machines that are not computable by logspace machines using \\(n^c\\) time for \\(c > 2\\), akin to weaker results for nondeterministic linear time in the classical setting? **(Yes! We can efficiently remove small quantifiers using Grover search, yielding \\(c \approx 2.36\\). This was experimentally verified with [Python code][automated-lbs])**
+    - Can we show that there are problems computable by linear time $$ \mathsf{QMA} $$ machines that are not computable by logspace machines using \\(n^c\\) time for \\(c > 2\\), improving upon weaker results for nondeterministic linear time in the classical setting? **(Yes! We can efficiently remove small quantifiers using Grover search, yielding \\(c \approx 2.36\\). This was experimentally verified with [Python code][automated-lbs])**
     - Is there a generalization of Grover's algorithm to 
     - Can we "speed up" \\(\mathsf{BQP}\\) computations by passing to higher levels in the quantum polynomial hierarchy, akin to speedup results used for time-space lower bounds against nondeterministic linear time in the classical setting? 
     - Is there a way to perform amplification of \\(\mathsf{QMA}\\) machines without increasing the length of Merlin's witness and while also guaranteeing that all initially valid witnesses for a given input stay valid witnesses for this input? See [this][better-qma-amp] StackExchange question for more details.
