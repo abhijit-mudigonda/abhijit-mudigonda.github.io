@@ -13,7 +13,7 @@ I am interested in computational complexity, combinatorics, and number theory.
 Here are some things I wrote as an undergraduate student. 
 
 - [Profinite Groups, Infinite Galois Theory, and an application to Kummer Theory]({{ site.url }}/pdfs/infgalois.pdf): Term paper for 18.704 (Seminar in Algebra), taught by Prof. Bjorn Poonen. 
-- [Sphere Packing in 8 Dimensions]({{ site.url }}/pdfs/infgalois.pdf): Written for 18.786 (Number Theory II), taught by Prof. Wei Zhang, and loosely following [this][cohn-spheres] survey by Henry Cohn
+- [Sphere Packing in 8 Dimensions]({{ site.url }}/pdfs/sphere-packing.pdf): Written for 18.786 (Number Theory II), taught by Prof. Wei Zhang, and loosely following [this][cohn-spheres] survey by Henry Cohn
 - The official [course notes][18218-notes] to 18.218 (Combinatorics of the Grassmannian), taught by Prof. Alex Postnikov.
 
 
