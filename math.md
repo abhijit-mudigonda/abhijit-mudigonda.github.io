@@ -32,7 +32,7 @@ My current work, with Professor [Ryan Williams][ryan-williams], is in computatio
 - **Circuit Complexity**
     - What are ways to turn arithmetic circuits into Boolean circuits? Assuming the Generalized Riemann Hypothesis, a lemma of [Koiran][koiran-lem] can be used to, given an arithmetic circuit with complex weights, obtain a Boolean circuit on the same inputs that agrees with the arithmetic circuit modulo  \\(p\\) for some "not-too-large" \\(p\\). [Fournier et al.][fournier] obtain arithmetic circuit lower bounds by using this lemma to convert the arithmetic circuits in question to Boolean circuits and applying Boolean circuit lower bounds. Can we improve this procedure further, either by improving Koiran's result or by coming up with new ways to do this conversion? 
 - **Graph Algorithms**
-    - Can we asymptotically improve the runtime of algorithms for detecting Hamiltonian cycles in directed graphs using polynomial identity tests? Dynamic programming yields $$ O(n^22^n) $$, so we wish to reduce the base of the exponent below $$2$$. I contributed to the analysis of the multilinear Schwarz-Zippel lemma and its applications to the Hamiltonian cycle polynomial. I've also written \href{code}{https://github.com/abhijit-mudigonda/directed-ham-cycles} to study Hamiltonian cycles in dense graphs. 
+    - Can we asymptotically improve the runtime of algorithms for detecting Hamiltonian cycles in directed graphs using polynomial identity tests? Dynamic programming yields $$ O(n^22^n) $$, so we wish to reduce the base of the exponent below $$2$$. I contributed to the analysis of the multilinear Schwarz-Zippel lemma and its applications to the Hamiltonian cycle polynomial. I've also written [code][ham-code] to study Hamiltonian cycles in dense graphs. 
 
 ### Past Research
 
@@ -55,4 +55,5 @@ My current work, with Professor [Ryan Williams][ryan-williams], is in computatio
 [burgisser-cooks]: https://link.springer.com/chapter/10.1007/978-3-662-04179-6_4
 [ardila-boocher]: https://arxiv.org/abs/1312.6874
 [scholten]: https://arxiv.org/abs/1804.02029
+[ham-code]: https://github.com/abhijit-mudigonda/directed-ham-cycles
 
