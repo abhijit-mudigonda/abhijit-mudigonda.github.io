@@ -10,7 +10,7 @@ I am interested in computational complexity, combinatorics, and number theory.
 
 ### Expository Writing
 
-Here are some things I wrote as an undergraduate student. 
+Here are some things I wrote as an undergraduate student.  
 
 - [Profinite Groups, Infinite Galois Theory, and an application to Kummer Theory]({{ site.url }}/pdfs/infgalois.pdf): Term paper for 18.704 (Seminar in Algebra), taught by Prof. Bjorn Poonen. 
 - [Sphere Packing in 8 Dimensions]({{ site.url }}/pdfs/sphere-packing.pdf): Written for 18.786 (Number Theory II), taught by Prof. Wei Zhang, and loosely following [this][cohn-spheres] survey by Henry Cohn
@@ -23,7 +23,7 @@ My current work, with Professor [Ryan Williams][ryan-williams], is in computatio
 
 - **Quantum Complexity Theory**
     - Can we show that there are problems computable by linear time $$ \mathsf{QMA} $$ machines that are not computable by logspace machines using \\(n^c\\) time for \\(c > 2\\), improving upon weaker results for nondeterministic linear time in the classical setting? **(Yes! We can efficiently remove small quantifiers using Grover search, yielding \\(c \approx 2.36\\). This was experimentally verified with [Python code][automated-lbs])**
-    - Is there a generalization of Grover's algorithm to 
+    - Is there a generalization of Grover's algorithm to inversion of quantum functions? Normally, Grover search will, given oracle access to a function $$f: \{0,1\}^n \rightarrow \{0,1\}$$, find an $$x$$ such that $$f(x) = 1$$ w.h.p. if one exists. I showed that we can Grover search even when we replace the oracle with a quantum function that may output a superposition of $$\ket{0}$$ and $$\ket{1}$$, and our goal is to w.h.p find $$x \in \{0,1\}^n$$ such that the quantum function is $$1$$ with probability exceeding $$\frac{2}{3}$$. An unedited writeup of a more general result is [here]({{ site.url }}/pdfs/quantum-grover.pdf). I'm not sure if this is useful outside my application, but if it is you should let me know!
     - Can we "speed up" \\(\mathsf{BQP}\\) computations by passing to higher levels in the quantum polynomial hierarchy, akin to speedup results used for time-space lower bounds against nondeterministic linear time in the classical setting? 
     - Is there a way to perform amplification of \\(\mathsf{QMA}\\) machines without increasing the length of Merlin's witness and while also guaranteeing that all initially valid witnesses for a given input stay valid witnesses for this input? See [this][better-qma-amp] StackExchange question for more details.
 - **Counting and Randomized Complexity**
@@ -31,7 +31,8 @@ My current work, with Professor [Ryan Williams][ryan-williams], is in computatio
     - Can we represent a conjunction of \\(b\\) bounded-error randomized machines each with runtime \\(t\\) using unbounded-error randomized machines taking runtime \\(2^{\frac{b}{2}}(b+t)\\)? Note that this is a quadratic speedup for quantifier removal over brute force, akin to the speedup of Grover's algorithm for quantum search. **(Yes! we can use [robust][robust] [approximating polynomials][algpoly] for \\(\mathsf{AND}\\))**
 - **Circuit Complexity**
     - What are ways to turn arithmetic circuits into Boolean circuits? Assuming the Generalized Riemann Hypothesis, a lemma of [Koiran][koiran-lem] can be used to, given an arithmetic circuit with complex weights, obtain a Boolean circuit on the same inputs that agrees with the arithmetic circuit modulo  \\(p\\) for some "not-too-large" \\(p\\). [Fournier et al.][fournier] obtain arithmetic circuit lower bounds by using this lemma to convert the arithmetic circuits in question to Boolean circuits and applying Boolean circuit lower bounds. Can we improve this procedure further, either by improving Koiran's result or by coming up with new ways to do this conversion? 
-
+- **Graph Algorithms**
+    - Can we asymptotically improve the runtime of algorithms for detecting Hamiltonian cycles in directed graphs using polynomial identity tests? Dynamic programming yields $$ O(n^22^n) $$, so we wish to reduce the base of the exponent below $$2$$. I contributed to the analysis of the multilinear Schwarz-Zippel lemma and its applications to the Hamiltonian cycle polynomial. I've also written \href{code}{https://github.com/abhijit-mudigonda/directed-ham-cycles} to study Hamiltonian cycles in dense graphs. 
 
 ### Past Research
 
