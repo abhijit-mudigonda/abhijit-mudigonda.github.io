@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello! I'm Abhijit, a member of MIT's undergraduate class of 2019. I study mathematics and theoretical computer science. I also love singing and arranging a cappella music, and was part of the [MIT Ohms][ohms-site] as an undergraduatee. When I'm not doing math or music, I spend my days running, cooking, and reading. 
+Hello! I'm Abhijit, a member of MIT's undergraduate class of 2019. I study mathematics and theoretical computer science. I also love singing and arranging a cappella music, and was part of the [MIT Ohms][ohms-site] as an undergraduate. When I'm not doing math or music, I spend my days running, cooking, and reading. 
 
 This site was built using [Github Pages][github-pages] with [Jekyll][jekyll-site] as a static site generator. I also use [tex2markdown][tex2markdown] to automatically convert my LaTeX files into reasonably pretty Markdown. 
 
