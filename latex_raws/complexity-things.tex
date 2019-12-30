@@ -1,0 +1,44 @@
+
+Here's a collection of things that are true (and not necessarily true) about oracles and advice. 
+
+\subsubsection{Oracles}
+
+\begin{proposition}
+    Suppose that $A, A', B, B'$ are complexity classes and $A \subset A'$ and $B \subset B'$. Then, 
+    \begin{itemize}
+        \item $A^B \subset A^{B'}$. 
+        \item It is \textit{not} necessarily true that $A^B \subset {A'}^B$. 
+    \end{itemize}
+\end{proposition}
+
+\begin{proof}
+    The first result is immediate. However, the second is not necessarily true. The point is that while it may be the $A$ and $A'$ recognize the same sets of strings, $A'$ may mechanistically be able to better use a $B$-oracle than $A$ can. As an example, the Baker-Gill-Solovay theorem tells us that there exists an oracle $\cO$ such that $\NP^{\cO} \not \subset \P^{\cO}$ but this does not necessarily imply that $\NP \not \subset \P$, even though this is what would be implied by the contrapositive of the claim. 
+\end{proof}
+
+\begin{definition}
+    $A^B^C := A^(B^C)$.
+\end{definition}
+
+One common consequence is that we can make use of inclusions at the ``top''  of oracle towers but not at the bottom. 
+
+
+
+\subsubsection{Advice}
+
+\begin{proposition}
+    \begin{itemize}
+        \item $A/\mathsf{poly} \subset A'/\mathsf{poly}$. 
+        \item $A/\mathsfs{rpoly} \subset A'/\mathsf{rpoly}$.
+        \item It is \textit{not} necessarily true that $A/\mathsf{qpoly} \subset A'/\mathsf{qpoly}$.
+    \end{itemize}
+\end{proposition}
+
+\begin{proof}
+    \begin{itemize}
+\end{proof}<++>
+
+
+
+
+
+
