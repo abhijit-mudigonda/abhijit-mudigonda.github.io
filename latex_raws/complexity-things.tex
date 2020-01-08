@@ -1,5 +1,5 @@
 
-Here's a collection of things that are true (and not necessarily true) about oracles and advice. 
+Here's a collection of statements about oracles and advice. Everything is fairly elementary, but after making a few fakesolves due to issues with some of this content I though it'd be worth writing things down. Statements in red are \textit{not} necessarily true. 
 
 \subsubsection{Oracles}
 
@@ -7,34 +7,37 @@ Here's a collection of things that are true (and not necessarily true) about ora
     Suppose that $A, A', B, B'$ are complexity classes and $A \subset A'$ and $B \subset B'$. Then, 
     \begin{itemize}
         \item $A^B \subset A^{B'}$. 
-        \item It is \textit{not} necessarily true that $A^B \subset {A'}^B$. 
+        \item RED $A^B \subset {A'}^B$. 
     \end{itemize}
 \end{proposition}
 
 \begin{proof}
-    The first result is immediate. However, the second is not necessarily true. The point is that while it may be the $A$ and $A'$ recognize the same sets of strings, $A'$ may mechanistically be able to better use a $B$-oracle than $A$ can. As an example, the Baker-Gill-Solovay theorem tells us that there exists an oracle $\cO$ such that $\NP^{\cO} \not \subset \P^{\cO}$ but this does not necessarily imply that $\NP \not \subset \P$, even though this is what would be implied by the contrapositive of the claim. 
+    To see the truth of the first statement, note that a language is in $A^B$ if it can be solved by a machine from $A$ using an oracle for $L' \in B$. Thus, it can also be solved in $A^{B'}$ because $L' \in B'$.
+
+
+    The second statement is not necessarily true. The point is that while it may be the $A$ and $A'$ recognize the same sets of strings, $A'$ may mechanistically be able to better use a $B$-oracle than $A$ can. As a counterexample, the Baker-Gill-Solovay theorem tells us that there exists an oracle $\cO$ such that $\NP^{\cO} \not \subset \P^{\cO}$ but this does not necessarily imply that $\NP \not \subset \P$, even though this is what would be implied by the contrapositive of the claim. 
 \end{proof}
 
-\begin{definition}
-    $A^B^C := A^(B^C)$.
-\end{definition}
-
-One common consequence is that we can make use of inclusions at the ``top''  of oracle towers but not at the bottom. 
-
-
+One common consequence of this is that we can make use of inclusions at the ``top''  of oracle towers but not at the bottom.
 
 \subsubsection{Advice}
 
 \begin{proposition}
     \begin{itemize}
         \item $A/\mathsf{poly} \subset A'/\mathsf{poly}$. 
-        \item $A/\mathsfs{rpoly} \subset A'/\mathsf{rpoly}$.
-        \item It is \textit{not} necessarily true that $A/\mathsf{qpoly} \subset A'/\mathsf{qpoly}$.
+        \item $A/\mathsf{rpoly} \subset A'/\mathsf{rpoly}$.
+        \item RED $A/\mathsf{qpoly} \subset A'/\mathsf{qpoly}$.
     \end{itemize}
 \end{proposition}
 
+Note here that $\mathsf{rpoly}$ means that for each input length $n$ there is a distribution $\mathcal{D}_n$ of strings of length $n$, and the verifier, given an input of length $n$, is also given a string drawn from this distribution. $\mathsf{qpoly}$ means that the verifier is given a quantum state. This isn't meaningful for classes that ``don't know what to do with a quantum state'', like $\NP$ or $\P$.
+
 \begin{proof}
-    \begin{itemize}
+    \begin{itemize} 
+        \item Let $x$ be the input and $y$ be the advice string. The verifier $V$ accepts if and only if $(x,y)$ is in some language in $A$. This same language is in $A'$. 
+        \item The verifier $V$ accepts if and only if $(x,y)$ is in some language in $A$. This same language is in $A'$. 
+        \item 
+    \end{itemize}
 \end{proof}<++>
 
 
