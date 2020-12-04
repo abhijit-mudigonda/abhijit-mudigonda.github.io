@@ -4,3 +4,5 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+
+Hi! You probably want one of the links on the top-right. 

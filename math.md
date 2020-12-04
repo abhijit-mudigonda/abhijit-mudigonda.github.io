@@ -1,25 +1,27 @@
 ---
 layout: page
 mathjax: true
-title: Mathematics
+title: Math and CS
 permalink: /math/
 ---
 
 
-I am interested in computational complexity, combinatorics, and number theory. Take a look at my [CV]({{ site.url }}/pdfs/Mudigonda-CV.pdf) to get a sense of some of the things I've done. 
-
+I am interested in number theory, computational complexity, quantum computing, and combinatorics. Take a look at my [CV]({{ site.url }}/pdfs/Mudigonda-CV.pdf) to get a sense of some of the things I've done. 
 
 ### Research 
 
-####Publications
-A. S. Mudigonda, R. R. Williams. [Time-Space Lower Bounds for Simulating Proof Systems with Quantum and Randomized Verifiers][qma-lb]. To appear in ITCS 2021. 
+#### Publications
+A. S. Mudigonda, R. R. Williams. [_Time-Space Lower Bounds for Simulating Proof Systems with Quantum and Randomized Verifiers_][qma-lb]. To appear in ITCS 2021. 
 
-####In Preparation
-B. Matschke, A. S. Mudigonda.[Asymptotic Frequency of Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere]
-A.S. Mudigonda. [A Quantum Proof of a List-Decoding Upper Bound]({{ site.url }}/preparation.md)
+#### In Preparation
+B. Matschke, A. S. Mudigonda. _Asymptotic Frequency of Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere_.
 
+A.S. Mudigonda. _A Quantum Proof of a List-Decoding Upper Bound_.
 
-###Expository Writing
+### Patents
+D. Gutfreund, Q. Fan, A. Mudigonda. [_Restructuring Deep Neural Networks to Reduce the Number of Parameters_][patent-link]. Patent published, USPA 20200160144. 
+
+### Expository Writing
 
 Here are some things I wrote as an undergraduate student.  
 
@@ -52,4 +54,5 @@ Here are some things I wrote as an undergraduate student.
 [scholten]: https://arxiv.org/abs/1804.02029
 [ham-code]: https://github.com/abhijit-mudigonda/directed-ham-cycles
 [qma-lb]: https://arxiv.org/abs/2012.00330
+[patent-link]: http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=OR&d=PG01&s1=20200160144.APN.&s2=%22RESTRUCTURING+DEEP+NEURAL+NETWORKS+REDUCE+NUMBER+PARAMETERS%22.TTL.&OS=APN/20200160144+OR+TTL/%22RESTRUCTURING+DEEP+NEURAL+NETWORKS+TO+REDUCE+THE+NUMBER+OF+PARAMETERS%22&RS=APN/20200160144+OR+TTL/%22RESTRUCTURING+DEEP+NEURAL+NETWORKS+TO+REDUCE+THE+NUMBER+OF+PARAMETERS%22
 
