@@ -6,7 +6,7 @@ permalink: /math/
 ---
 
 
-I am interested in number theory, computational complexity, quantum computing, and combinatorics. Take a look at my [CV]({{ site.url }}/pdfs/Mudigonda-CV.pdf) to get a sense of some of the things I've done. 
+I am interested in number theory, theoretical computer science, and combinatorics. Take a look at my [CV]({{ site.url }}/pdfs/Mudigonda-CV.pdf) to get a sense of some of the things I've done. 
 
 ### Research 
 
