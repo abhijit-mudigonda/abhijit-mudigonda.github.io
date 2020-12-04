@@ -7,11 +7,12 @@ permalink: /music/
 
 ### A Cappella Arrangements
 
-Here are some a cappella arrangements I've written. Many arrangements are mashups of an English song with an Indian-language song. Most of these pieces were written for the [MIT Ohms][ohms-site] but I've written pieces for other groups as well. 
+Here are some a cappella arrangements I've written. Many arrangements are mashups of an English song with an Indian-language song (most often Hindi). Most of these pieces were written for the [MIT Ohms][ohms-site] but I've written pieces for other groups as well. 
+
 
 - Mayya/Emperor's New Clothes (o.p.b. A.R. Rahman and Panic! at the Disco): [PDF]({{ site.url }}/pdfs/mayya.pdf) and [Video][mayya-video]
 - Permanent/Ennodu Nee Irundhaal (o.p.b. Kygo, JHart, and A.R. Rahman): [PDF]({{ site.url }}/pdfs/permanent.pdf)
-- Naina/Imperfection (o.p.b. Vishal Bhardwaj and Evanescence)
+- Naina/Imperfection (o.p.b. Vishal Bhardwaj, Evanescence)
 - Pehli Baar/(I've Had) the Time of My Life (o.p.b. Shankar-Ehsaan-Loy, Bill Medley, and Jennifer Warnes)
 - Aaj Ki Raat (o.p.b Shankar-Ehsaan-Loy)
 - Bhare Naina/Sledgehammer (o.p.b. Vishal-Shekhar and Rihanna): [Audio][bhare-studio]
@@ -23,14 +24,15 @@ Here are some a cappella arrangements I've written. Many arrangements are mashup
 - Mitwa/Fireflies (o.p.b. Shankar-Ehsaan-Loy, Owl City)
 - Wait For It/Alvida (o.p.b. Lin-Manuel Miranda, Pritam)
 
-[mayya-video]: https://www.youtube.com/watch?v=0k4q-woKqeA
-[bhare-studio]: https://open.spotify.com/track/6YOudxckxLquX6ZiPsvE9u
-[ohms-site]: https://ohms.mit.edu
-
 ### Course Projects
 
 I was a music concentrator at MIT, and had a chance to take lots of music and theatre classes, with a particular focus on composition. 
 
-- A string quartet loosely inspired by karnAtik music (classical music of South India) for 21M.310 (20th Century Composition), taught by the marvelous Charles Shadle: [PDF]({{ site.url }}/pdfs/carnaticquartet.pdf)
+- A string quartet loosely inspired by karnAtik music (classical music of South India) for 21M.310 (20th Century Composition), taught by the marvelous [Charles Shadle][shadle-site]: [PDF]({{ site.url }}/pdfs/carnaticquartet.pdf)
 - More to come!
+
+[mayya-video]: https://www.youtube.com/watch?v=0k4q-woKqeA
+[bhare-studio]: https://open.spotify.com/track/6YOudxckxLquX6ZiPsvE9u
+[ohms-site]: https://ohms.mit.edu
+[shadle-site]: https://mta.mit.edu/person/charles-shadle
 
