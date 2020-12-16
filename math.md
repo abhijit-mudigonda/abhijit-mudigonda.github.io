@@ -16,8 +16,6 @@ A. S. Mudigonda, R. R. Williams. [_Time-Space Lower Bounds for Simulating Proof 
 #### In Preparation
 B. Matschke, A. S. Mudigonda. _Asymptotic Frequency of Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere_.
 
-A. S. Mudigonda. _A Quantum Proof of a List-Decoding Upper Bound_.
-
 ### Patents
 D. Gutfreund, Q. Fan, A. Mudigonda. [_Restructuring Deep Neural Networks to Reduce the Number of Parameters_][patent-link]. Patent published, USPA 20200160144. 
 
