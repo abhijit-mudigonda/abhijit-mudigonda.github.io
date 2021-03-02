@@ -13,11 +13,17 @@ I am interested in number theory, theoretical computer science, and combinatoric
 #### Publications
 A. S. Mudigonda, R. R. Williams. [_Time-Space Lower Bounds for Simulating Proof Systems with Quantum and Randomized Verifiers_][qma-lb]. To appear in ITCS 2021. 
 
+### Notes
+A. S. Mudigonda. [_An Efficient Reduction from QMATIME[n] to the k-Local Hamiltonians Problem_]({{ site.url }}/pdfs/lham-tight-complete.pdf).
+
+
 #### In Preparation
 B. Matschke, A. S. Mudigonda. _Asymptotic Frequency of Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere_.
 
 ### Patents
 D. Gutfreund, Q. Fan, A. Mudigonda. [_Restructuring Deep Neural Networks to Reduce the Number of Parameters_][patent-link]. Patent published, USPA 20200160144. 
+
+
 
 ### Expository Writing
 
