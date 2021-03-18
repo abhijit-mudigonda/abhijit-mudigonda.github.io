@@ -13,12 +13,13 @@ I am interested in number theory, theoretical computer science, and combinatoric
 #### Publications
 A. S. Mudigonda, R. R. Williams. [_Time-Space Lower Bounds for Simulating Proof Systems with Quantum and Randomized Verifiers_][qma-lb]. To appear in ITCS 2021. 
 
+#### Preprints
+B. Matschke, A. S. Mudigonda. [_Asymptotic Frequency of Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere_][quad-egr]. 
+
 ### Notes
 A. S. Mudigonda. [_An Efficient Reduction from QMATIME[n] to the k-Local Hamiltonians Problem_]({{ site.url }}/pdfs/lham-tight-complete.pdf).
 
-
 #### In Preparation
-B. Matschke, A. S. Mudigonda. _Asymptotic Frequency of Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere_.
 
 ### Patents
 D. Gutfreund, Q. Fan, A. Mudigonda. [_Restructuring Deep Neural Networks to Reduce the Number of Parameters_][patent-link]. Patent published, USPA 20200160144. 
@@ -59,4 +60,5 @@ Here are some things I wrote as an undergraduate student.
 [ham-code]: https://github.com/abhijit-mudigonda/directed-ham-cycles
 [qma-lb]: https://arxiv.org/abs/2012.00330
 [patent-link]: http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-bool.html&r=1&f=G&l=50&co1=OR&d=PG01&s1=20200160144.APN.&s2=%22RESTRUCTURING+DEEP+NEURAL+NETWORKS+REDUCE+NUMBER+PARAMETERS%22.TTL.&OS=APN/20200160144+OR+TTL/%22RESTRUCTURING+DEEP+NEURAL+NETWORKS+TO+REDUCE+THE+NUMBER+OF+PARAMETERS%22&RS=APN/20200160144+OR+TTL/%22RESTRUCTURING+DEEP+NEURAL+NETWORKS+TO+REDUCE+THE+NUMBER+OF+PARAMETERS%22
+[quad-egr]: https://arxiv.org/pdf/2103.09814.pdf
 
