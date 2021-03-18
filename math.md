@@ -14,7 +14,7 @@ I am interested in number theory, theoretical computer science, and combinatoric
 A. S. Mudigonda, R. R. Williams. [_Time-Space Lower Bounds for Simulating Proof Systems with Quantum and Randomized Verifiers_][qma-lb]. To appear in ITCS 2021. 
 
 #### Preprints
-B. Matschke, A. S. Mudigonda. [_Asymptotic Frequency of Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere_][quad-egr]. 
+B. Matschke, A. S. Mudigonda. [_Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere_][quad-egr]. 
 
 ### Notes
 A. S. Mudigonda. [_An Efficient Reduction from QMATIME[n] to the k-Local Hamiltonians Problem_]({{ site.url }}/pdfs/lham-tight-complete.pdf).
