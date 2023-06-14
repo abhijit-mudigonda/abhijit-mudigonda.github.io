@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><title>Vinogradov&#39;s Theorem and the Circle Method &ndash; pravāham</title>
+<meta name="description" content="math, music, puzzles, and more!">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
+
+
+<link rel="stylesheet" href="http://abhijit-mudigonda.github.io/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="http://abhijit-mudigonda.github.io/css/risotto.css">
+<link rel="stylesheet" href="http://abhijit-mudigonda.github.io/css/custom.css">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="
+      macros = {
+            '\\R': '\\mathbb{R}',
+            '\\Z': '\\mathbb{Z}',
+            '\\ZZ': '\\mathbb{Z}',
+            '\\C': '\\mathbb{C}',
+            '\\NN': '\\mathbb{N}',
+            '\\Q': '\\mathbb{Q}',
+            '\\Qp': '\\mathbb{Q}_p',
+            '\\Fp': '\\mathbb{F}_p',
+            '\\Fq': '\\mathbb{F}_q',
+            '\\p': '\\mathfrak{p}',
+            '\\f': '\\frac{#1}{#2}',
+            '\\t': '\\text{#1}',
+            '\\paren': '\\left(#1\\right)',
+            '\\abs': '\\left|#1\\right|',
+
+      }
+
+      renderMathInElement(document.body, {
+        macros
+      });
+
+      renderMathInElement(document.body, {
+              delimiters: [
+                  {left: '$$', right: '$$', display: true},
+                  {left: '$', right: '$', display: false}
+              ],
+              macros 
+      });
+    ">
+</script>
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+    <h1 class="page__logo"><a href="http://abhijit-mudigonda.github.io" class="page__logo-inner">pravāham</a></h1>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://abhijit-mudigonda.github.io/math/" title="">math</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://abhijit-mudigonda.github.io/music/" title="">music</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://abhijit-mudigonda.github.io/puzzles/" title="">puzzles</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item active" href="http://abhijit-mudigonda.github.io/posts/" title="Posts">Posts</a></li>
+    
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h3>Vinogradov&rsquo;s Theorem and the Circle Method</h3>
+        <h6>2023-06-07</h6>
+        <hr>
+    </header>
+    
+    <div class="content__body">
+        <h4 id="the-ternary-goldbach-conjecture-and-vinogradovs-theorem">The Ternary Goldbach Conjecture and Vinogradov&rsquo;s Theorem</h4>
+<p>For $n \in \Z$, let</p>
+<p>$$r_k(n) := \#\lbrace(p_1, p_2, \dots, p_k) \colon p_i \t{ prime, } \sum_{i \leq k} p_i = n\rbrace$$</p>
+<p>In June 1742, Christian Goldbach exchanged letters with
+Leonhard Euler in which his namesake conjectures were
+formulated.</p>
+<div class="envbox" style="background-color:#082C40; border-style:solid; padding: 5px 5px 5px 5px; margin: 5px 5px 10px 0px">
+  <strong> Conjecture 1 (Binary Goldbach): </strong>   For every even $n &gt; 2$, $r_2(n) &gt; 1$. 
+</div>
+
+
+
+<p>Conjecture 1 is also known as the strong Goldbach conjecture.
+Implicit in these letters is a weaker version of the conjectures,
+which was proved by Helfgott in 2013.</p>
+<div class="envbox" style="background-color:#082C40; border-style:solid; padding: 5px 5px 5px 5px; margin: 5px 5px 10px 0px">
+  <strong> Theorem 2 (Ternary Goldbach): </strong>   For every odd $n &gt; 5$, $r_3(n) &gt; 1$.
+</div>
+
+
+
+<figure style="text-align: center"><img src="goldbach_xkcd.png"
+         alt="The weak, very weak, and extremely weak conjectures are true. The very strong and extremely strong conjectures are false. The strong conjecture remains open. (Source: xkcd 1310)" width="500px" height="500px"/><figcaption>
+            <p>The weak, very weak, and extremely weak conjectures are true. The very strong and extremely strong conjectures are false. The strong conjecture remains open. (Source: <a href="https://xkcd.com/1310/">xkcd 1310</a>)</p>
+        </figcaption>
+</figure>
+
+<p>Helfgott&rsquo;s proof of Theorem 2 &ndash; although substantially more involved &ndash; follows the
+rough outline of the proof of a result of Vinogradov from the 1930s.</p>
+<p><div class="envbox" style="background-color:#082C40; border-style:solid; padding: 5px 5px 5px 5px; margin: 5px 5px 10px 0px">
+  <strong> Theorem 3 (Vinogradov): </strong>     For any fixed $A &gt; 0$,  $$r_3(n) = \f{1}{2}\mathfrak{S}(n)n^2 &#43; O_A\paren{\f{n^2}{\log^A n}},$$  where   $$\mathfrak{S}(n) := \prod_{p | n} \paren{1 - \f{1}{(p-1)^2}}\prod_{p \nmid n} \paren{1 &#43; \f{1}{(p-1)^3}}.$$
+</div>
+
+
+
+The following lemma is very weak, but demonstrates that $\mathfrak{S}(n) \asymp 1$.</p>
+<p><div class="envbox" style="background-color:#082C40; border-style:solid; padding: 5px 5px 5px 5px; margin: 5px 5px 10px 0px">
+  <strong> Lemma 4: </strong>     $$0.193 \approx e^{-\zeta(2)} \leq \mathfrak{S}(n) \leq e^{\zeta(3)} \approx 3.33.$$
+</div>
+
+
+
+<em><strong>Proof</strong></em>:
+For the upper bound, since $1 + x \leq e^x$,
+\begin{align}
+\mathfrak{S}(n)  \leq \prod_{p} \paren{1 + \f{1}{(p-1)^3}}
+\leq \prod_p e^{\f{1}{(p-1)^3}}
+\leq \prod_p e^{\sum_{n \in \NN} \f{1}{n^3}}
+= e^{\zeta(3)}. \nonumber
+\end{align}</p>
+<p>For the lower bound, since $1 - x \geq e^{-2x}$ for small enough $x$,
+\begin{align}
+\mathfrak{S}(n)  \geq \prod_p \paren{1 - \f{1}{(p-1)^2}}
+\gg \prod_p e^{\f{-1}{2(p-1)^2}}
+\geq e^{-\sum_{n \in \NN} \f{1}{n^2}}
+= e^{-\zeta(2)}.\nonumber
+\end{align}
+$\Box</p>
+<p>Fixing $A$, we see that for large enough $n$, $r_3(n) &gt; 1$ and the ternary Goldbach conjecture holds.
+Unfortunately, the implicit constant in the asymptotic is ineffective due to the use of Siegel&rsquo;s theorem
+(on elliptic curves) in the proof, so Theorem 3 is inamenable to explicit bounds. This means that we cannot use
+this method to find an $N$ beyond which $r(n) &gt; 0$.</p>
+<p>This post is based on a talk I gave at the No Theory seminar at UChicago in Winter 2023,
+following discussions I had with Timothy Ngotiaoco.
+I will explicate the circle method and how it may be applied to this problem, focusing
+mainly on the setup of the proof (before the walls of inequalities begin).
+I am sure that everything I write here is well known,
+but I was not able to find it (and in particular, Lemma 6)
+written down in detail anywhere. As such, please let me know if you see any errors.</p>
+<h4 id="expressing-the-count-as-an-integral">Expressing the count as an integral</h4>
+<p>Vinogradov proved Theorem 3 using the circle method.</p>
+<p>A common strategy in analytic number theory is &ndash; given a function $f \colon \NN \rightarrow \C^{\times}$
+of interest &ndash; to study the associated Dirichlet series
+$$F(s) := \sum_{n \in \NN} f(n)n^{-s}.$$</p>
+<p>We can then apply complex analytic methods to conclude properties of $f$
+from analytic properties of $F$. For example, Ikehara&rsquo;s Tauberian theorems can be used to obtain
+asymptotic bounds on $\sum_{n \leq N} f(n)$ based on the residue of $F$ at $s = 1$.</p>
+<p>The circle method is similar, but more Fourier analytic. The Fourier transform
+of $f \colon \ZZ \rightarrow \C^{\times}$ is</p>
+<p>$$\hat{f}(\theta) := \sum_{n \in \ZZ} f(n)e(-n\theta),$$</p>
+<p>where for $\theta \in \R/\Z$, $e(n\theta) := e^{2\pi i n \theta}$.
+We can recover the coefficients from $\hat{f}(\theta)$ using inverse Fourier transform,</p>
+<p>$$f(n) = \int_{\theta \in \R/\Z} \hat{f}(\theta)e(n\theta) d\theta.$$</p>
+<p>Suppose that $f(n)$ is the indicator function for prime numbers. Then,
+$$\hat{f}(\theta)^3 = \sum_{n \in \ZZ} \paren{\sum_{a + b + c = n} f(a)f(b)f(c)}e(-n\theta) = \sum_{n \in \ZZ} r(n)e(-n\theta).$$</p>
+<p>Therefore, we have
+$$r(n) = \int_{\theta \in \R/\Z} \hat{f}(\theta)^3.$$</p>
+<p>For our application, it will be convenient to replace $f(n)$ with the von
+Mangoldt function $\Lambda(n)$, defined as</p>
+<p>$$\Lambda(n) := \begin{cases}
+\log p &amp; n = p^k \t{ for some prime } p \\
+0 &amp; \t{otherwise}.
+\end{cases}$$</p>
+<p>As we will see shortly, we will need to work with truncated sums rather than
+power series to avoid convergence issues.
+Thus, writing
+$$S(\theta) := S_N(\theta) = \sum_{n \leq N} \Lambda(n)e(-n\theta),$$
+we observe that the coefficient of $e(n\theta)$ in $S(\theta)^3$ counts
+the number of ways to express $n$ as a sum of three prime powers not exceeding $N$.
+Our integral of interest is then</p>
+<p>\begin{equation}
+\int_{\theta \in \R/\Z} S(\theta)^3e(n\theta).
+\end{equation}</p>
+<p><em><strong>Remark:</strong></em>
+The von Mangoldt function is a common stand-in for the prime indicator function
+in analytic number theory. For example, many proofs of the
+prime number theorem, rather than showing that $\pi(x) := \sum_{n \leq x} f(n) \sim \f{x}{\log x}$ directly,
+instead prove that $\psi(x) := \sum_{n \leq x} \Lambda(n) \sim x$. These two are equivalent &ndash; roughly
+each prime up to $x$ is counted $\f{\log x}{\log p}$ times, with weight $\log p$, so if there are
+$\f{x}{\log x}$ primes then the sum ought to be $x$. This connects nicely
+to the Riemann zeta function, because
+$$\f{\zeta&rsquo;(s)}{\zeta(s)} = \sum_{n \in \NN} \Lambda(n)n^{-s},$$
+and allows us to relate the distribution of prime numbers to
+the analytic behavior of $\zeta(s)$.</p>
+<p><em><strong>Remark:</strong></em>
+The circle method, usually called the Hardy-Littlewood circle method, had its beginnings in work by Hardy and Ramanujan
+on the asymptotics of the partition function. Its utility was expanded significantly by work of Hardy and Littlewood,
+who applied it to counting the number of ways to express numbers as sums of $k^{th}$ powers (Waring&rsquo;s problem).
+The circle method is thus a partial example of Stigler&rsquo;s law of eponymy.</p>
+<h4 id="singularities-on-the-unit-circle">Singularities on the unit circle</h4>
+<p>The problem of studying $r(n)$ now reduces to studying the integral in Equation 1.
+We will break it up into an integral over <em>major arcs</em> &ndash; regions
+where the integrand is large but well estimable &ndash; and <em>minor arcs</em>
+&ndash; where the integrand is small but may be difficult to control.
+The major arcs will give us the main term
+and the minor arcs will give us the error term. To get a sense of how to
+choose the major and minor arcs, let&rsquo;s do some graphing.
+Abusing notation, we write $S_N(z) := \sum_{n \leq N} \Lambda(n)z^n$.</p>
+<figure style="text-align: center"><img src="f3-plot.png"
+         alt="$S_{2500}(z)^3$ on the unit disk." width="500px" height="500px"/><figcaption>
+            <p>$S_{2500}(z)^3$ on the unit disk.</p>
+        </figcaption>
+</figure>
+
+<p><em><strong>Remark:</strong></em>
+Here&rsquo;s a quick crash course if you haven&rsquo;t thought about
+plots of complex functions too hard before. Given a complex-valued
+function $f$, if $f(z)$ is $(r,\theta)$ in polar
+coordinates, then the color of the graph of $f$ at the point $z$
+tells us about $\theta$ and the brightness at $z$ tells us about
+$r$. Precisely, ROYGBIV corresponds to $\theta = [0, \2pi)$,
+larger magnitudes are closer to white, and smaller magnitudes are
+closer to black. Zeroes look locally like $z^k$, so we
+expect to see the colors ROYGBIV as we go clockwise around
+a zero. Poles look locally like $z^{-k}$, so we expect to see the
+colors in the opposite order around a pole. Intuitively, the &ldquo;worse&rdquo;
+a singularity is, the greater the distortion around it ought to be.</p>
+<p>As expected, we see a large black patch in the middle since $S_N(z)$
+is small near $z = 0$. We are interested in the behavior of $S_N(z)^3$ along the unit circle,
+so we should focus on the boundaries of the disk. It&rsquo;s a little bit difficult to
+see what&rsquo;s happening, so to simplify things, let&rsquo;s plot $S_N(z)$ instead of its cube.</p>
+<figure style="text-align: center"><img src="f-plot-new.png"
+         alt="$S_{7500}(z)$ on the unit disk. The dots around the outside mark the points $e^{2\pi i \theta}$ for $\theta \in \Q \cap [0,1)$ with denominators at most $7$. Dots with the same denominator are the same shade of grey." width="500px" height="500px"/><figcaption>
+            <p>$S_{7500}(z)$ on the unit disk. The dots around the outside mark the points $e^{2\pi i \theta}$ for $\theta \in \Q \cap [0,1)$ with denominators at most $7$. Dots with the same denominator are the same shade of grey.</p>
+        </figcaption>
+</figure>
+
+<p>Following the remark, $S_N(z)$ appears to have a large singularity at $\theta = 0$,
+a smaller singularity at $\f{1}{2}$, and increasingly small singularities when the
+denominator is $3$, $5$, or $7$. When the denominator is $6$, we see a larger-than-expected
+singularity, and when the denominator is $4$ there appears to be no singularity (or a very small one).
+Before we explain this, we need the following preliminary lemma, whose proof we leave as an exercise.</p>
+<div class="envbox" style="background-color:#082C40; border-style:solid; padding: 5px 5px 5px 5px; margin: 5px 5px 10px 0px">
+  <strong> Lemma 5: </strong>     If $\zeta$ is an $s^{\t{th}}$ root of unity, then  $$\sum_{a \in (\Z/s\Z)^{\times}} \zeta^a = \mu(s).$$
+</div>
+
+
+
+<p><div class="envbox" style="background-color:#082C40; border-style:solid; padding: 5px 5px 5px 5px; margin: 5px 5px 10px 0px">
+  <strong> Lemma 6: </strong>     $$\sum_{n \in N} \Lambda(n)e\paren{\f{rn}{s}} \sim -\f{\mu(s)N}{\phi(s)},$$  where $\mu$ and $\phi$ are the Möbius and Euler totient functions, respectively. 
+</div>
+
+
+
+<em><strong>Proof</strong></em>:
+Recall that if $\zeta$ is an $s^{\t{th}}$ root of unity, then by Dirichlet&rsquo;s theorem on arithmetic progressions
+and Lemma 5,
+\begin{align}
+\sum_{n \leq N} \Lambda(n)e\paren{\f{rn}{s}} &amp; = \sum_{a \in \Z/s\Z} e\paren{\f{ar}{s}} \sum_{\substack{n \equiv a \mod{s} \nonumber \\ n \leq N}} \Lambda(n) \nonumber \\
+&amp; = \sum_{a \in (\Z/s\Z)^{\times}} e\paren{\f{ar}{s}} \sum_{\substack{n \equiv a \mod{s} \nonumber \\ n \leq N}} \Lambda(n) + o(N) \nonumber \\
+&amp; = \f{N}{\phi(s)}\sum_{a \in (\Z/s\Z)^{\times}} e\paren{\f{ar}{s}} + o(N)  \nonumber \\
+&amp; = \paren{\f{\mu(s)}{\phi(s)} + o(1)}N.  \nonumber \\
+\end{align}
+$\Box$</p>
+<p>At least heuristically, this tells us that the &ldquo;badness&rdquo; of the singularity at an $s^{\t{th}}$ root of unity
+should be proportional to $\f{\mu(s)}{\phi(s)}$. There are ways to make statements vaguely like this precise, but I
+haven&rsquo;t really thought about whether it can be done here.</p>
+<p>This helps explains the observations we made earlier. There is a singularity at every $s \in \Q$.
+If $s = \f{a}{p}$ for a prime $p$, Lemma 6 tells us that the &ldquo;badness&rdquo; of the singularity
+decreases as $p$ increases.
+There is no contribution from $s = 4$ because $\mu(4) = 0$.
+The contribution from $s = 6$ is unexpectedly
+large because $\phi(6) &lt; \phi(5)$.
+We have the <a href="https://en.wikipedia.org/wiki/Euler%27s_totient_function#Growth_rate">lower bound</a>
+$\phi(s) \geq \f{s}{(e^{\gamma} + o(1))\log \log s}$, so we expect the largest contributions to come near
+$s \in \Q$ with small denominators.</p>
+<p><em><strong>Remark:</strong></em>
+Lemma 6 tells us that the series $\sum_{n \in \NN} \Lambda(n)z^n$ has a singularity whenever $z$ is a $m^{\t{th}}$ root of unity
+for $m$ squarefree. The set of numbers with squarefree denominator is dense in $\R/\Z$, so this implies that the series has singularities
+<em>everywhere on the unit circle</em>!
+This also follows from the <a href="https://en.wikipedia.org/wiki/Ostrowski%E2%80%93Hadamard_gap_theorem">Hadamard-Ostrowski theorem</a>,
+which says that power series with sufficient gaps between nonzero coefficients cannot be analytically continued
+beyond their radius of convergence. In some sense, the fact that there are singularities
+everywhere has more to do with the gaps between nonzero coefficients in this sequence than to the precise distribution.
+However, the relative weighting of the singularities in our series depends on the distribution.</p>
+<p>Fix $P := (\log N)^B$ and $Q = N(\log N)^{-B}$, for $B$ to be chosen later (in terms of $A$).
+For any $m \leq P$ and $a \in \lbrace0, 1, \dots, m-1\rbrace$ such that $(a, m) \equiv 1$, we define the major arc
+$$\mathfrak{M}(a,m) := \lbrace\theta \in \R/\Z \colon |\theta - \f{a}{m}| \leq \f{1}{Q}\rbrace.$$</p>
+<p>Observe that $\mathfrak{M}(a,m) \cap \mathfrak{M}(a&rsquo;, m&rsquo;) = \emptyset$ unless $m = m&rsquo;$ and $a = a&rsquo;$,
+since
+$$\abs{\f{a}{m} - \f{a&rsquo;}{m&rsquo;}} = \abs{\f{am&rsquo; - a&rsquo;m}{mm&rsquo;}} \geq \f{1}{mm&rsquo;} \geq \f{1}{P^2} \geq \f{1}{Q}.$$</p>
+<p>The major arcs are then $\cup_{a, m} \mathfrak{M}(a, m)$ and the minor arcs are their complement in $\R/\Z$.
+Now that we have chosen the major and minor arcs, the goal is to bound the integral on each part.
+I may post about the main body of the proof in the future, but until then
+refer readers to Chapter 26 of Davenports <em>Multiplicative Number Theory</em>.</p>
+
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+    
+</p>
+<br /><br />
+<p class="copyright"></p>
+</footer>
+
+        </div>
+    </body>
+
+</html>

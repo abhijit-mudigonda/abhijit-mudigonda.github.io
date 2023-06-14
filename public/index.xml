@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pravāham</title>
+    <link>http://abhijit-mudigonda.github.io/</link>
+    <description>Recent content on pravāham</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Jun 2023 22:48:11 -0500</lastBuildDate><atom:link href="http://abhijit-mudigonda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vinogradov&#39;s Theorem and the Circle Method</title>
+      <link>http://abhijit-mudigonda.github.io/posts/vinogradov/</link>
+      <pubDate>Wed, 07 Jun 2023 22:48:11 -0500</pubDate>
+      
+      <guid>http://abhijit-mudigonda.github.io/posts/vinogradov/</guid>
+      <description>The Ternary Goldbach Conjecture and Vinogradov&amp;rsquo;s Theorem For $n \in \Z$, let
+$$r_k(n) := \#\lbrace(p_1, p_2, \dots, p_k) \colon p_i \t{ prime, } \sum_{i \leq k} p_i = n\rbrace$$
+In June 1742, Christian Goldbach exchanged letters with Leonhard Euler in which his namesake conjectures were formulated.
+Conjecture 1 (Binary Goldbach): For every even $n &amp;gt; 2$, $r_2(n) &amp;gt; 1$. Conjecture 1 is also known as the strong Goldbach conjecture. Implicit in these letters is a weaker version of the conjectures, which was proved by Helfgott in 2013.</description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>http://abhijit-mudigonda.github.io/math/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://abhijit-mudigonda.github.io/math/</guid>
+      <description>I primarily work in number theory but have broad interests. Take a look at my CV to get a sense of some of the things I&amp;rsquo;ve done.
+Research Publications B. Matschke, A. S. Mudigonda. Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere. Journal of Number Theory. Volume 247, June 2023, Pages 162-210 A. S. Mudigonda, R. R. Williams. Time-Space Lower Bounds for Simulating Proof Systems with Quantum and Randomized Verifiers.</description>
+    </item>
+    
+    <item>
+      <title>Music</title>
+      <link>http://abhijit-mudigonda.github.io/music/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://abhijit-mudigonda.github.io/music/</guid>
+      <description>A Cappella Arrangements Here are some a cappella arrangements I&amp;rsquo;ve written or co-written. Many arrangements are mashups of an English song with an Indian-language song (most often Hindi). Most of these pieces were written for the MIT Ohms but I&amp;rsquo;ve written pieces for other groups as well.
+Mayya/Emperor&amp;rsquo;s New Clothes (o.p.b. A.R. Rahman and Panic! at the Disco): PDF, YouTube, and Spotify Aaj Ki Raat (with Rupayan Neogy) (o.p.b Shankar-Ehsaan-Loy): YouTube and Spotify.</description>
+    </item>
+    
+    <item>
+      <title>Puzzles</title>
+      <link>http://abhijit-mudigonda.github.io/puzzles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://abhijit-mudigonda.github.io/puzzles/</guid>
+      <description>I was on the writing team for Mystery Hunt 2023.
+The puzzle I&amp;rsquo;m most proud of is To Numbers And Back Again, which incorporates many different aspects of Indian culture.
+Here are some other puzzles I wrote or co-wrote:
+Street Smarts Nuclear Words A Conspiracy Network The Radio Tissues Shared Characters North Carolina Shopping List </description>
+    </item>
+    
+  </channel>
+</rss>

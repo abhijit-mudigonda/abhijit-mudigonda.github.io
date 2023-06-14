@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on pravāham</title>
+    <link>http://abhijit-mudigonda.github.io/posts/</link>
+    <description>Recent content in Posts on pravāham</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Jun 2023 22:48:11 -0500</lastBuildDate><atom:link href="http://abhijit-mudigonda.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vinogradov&#39;s Theorem and the Circle Method</title>
+      <link>http://abhijit-mudigonda.github.io/posts/vinogradov/</link>
+      <pubDate>Wed, 07 Jun 2023 22:48:11 -0500</pubDate>
+      
+      <guid>http://abhijit-mudigonda.github.io/posts/vinogradov/</guid>
+      <description>The Ternary Goldbach Conjecture and Vinogradov&amp;rsquo;s Theorem For $n \in \Z$, let
+$$r_k(n) := \#\lbrace(p_1, p_2, \dots, p_k) \colon p_i \t{ prime, } \sum_{i \leq k} p_i = n\rbrace$$
+In June 1742, Christian Goldbach exchanged letters with Leonhard Euler in which his namesake conjectures were formulated.
+Conjecture 1 (Binary Goldbach): For every even $n &amp;gt; 2$, $r_2(n) &amp;gt; 1$. Conjecture 1 is also known as the strong Goldbach conjecture. Implicit in these letters is a weaker version of the conjectures, which was proved by Helfgott in 2013.</description>
+    </item>
+    
+  </channel>
+</rss>
