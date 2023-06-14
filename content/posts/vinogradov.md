@@ -1,7 +1,6 @@
 ---
 title: "Vinogradov's Theorem and the Circle Method"
 date: 2023-06-07T22:48:11-05:00
-draft: true
 ---
 
 #### The Ternary Goldbach Conjecture and Vinogradov's Theorem

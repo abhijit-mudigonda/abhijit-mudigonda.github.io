@@ -1,7 +1,6 @@
 ---
 title: Puzzles
 permalink: /puzzles/
-draft: true
 ---
 
 I was on the writing team for Mystery Hunt 2023.
