@@ -1,0 +1,4 @@
+<li>
+  <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> 
+  ({{ if .Date }}{{ .Date.Format "2006-01-02" }}{{ end }}) 
+</li>
