@@ -1,0 +1,72 @@
+baseURL = 'http://abhijit-mudigonda.github.io'
+languageCode = 'en-us'
+title = 'pravāham'
+author = 'Abhijit S. Mudigonda'
+theme = 'risotto'
+sectionPagesMenu = "main"
+
+[params]
+  [params.theme]
+  palette = "base16-dark"
+
+  # Sidebar: about/bio
+  [params.about]
+  title = 'pravāham'
+  description = "math, music, puzzles, and more!"
+
+  # Sidebar: social links
+  [[params.socialLinks]]
+  icon = "fa-brands fa-github"
+  title = "GitHub"
+  url = "https://github.com/abhijit-mudigonda"
+  [[params.socialLinks]]
+  icon = "ai ai-orcid"
+  title = "ORCID"
+  url = "https://orcid.org/0000-0003-2987-9293"
+
+[menu]
+  [[menu.main]]
+    identifier = "math"
+    name = "math"
+    url = "/math/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "music"
+    name = "music"
+    url = "/music/"
+    weight = 11
+  
+  [[menu.main]]
+    identifier = "puzzles"
+    name = "puzzles"
+    url = "/puzzles/"
+    weight = 12
+
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+
+  [privacy.googleAnalytics]
+    disable = true
+
+  [privacy.instagram]
+    disable = true
+
+  [privacy.twitter]
+    disable = true
+
+  [privacy.vimeo]
+    disable = true
+
+  [privacy.youtube]
+    disable = true
+
+
+
+
+
+
+
+

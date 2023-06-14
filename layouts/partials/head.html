@@ -1,0 +1,55 @@
+<title>{{ with .Title }}{{ . }} &ndash; {{end}}{{ .Site.Title }}</title>
+{{ with .Site.Params.about }}<meta name="description" content="{{ .description }}">{{ end }}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+{{ if .Site.Params.noindex }}<meta name="robots" content="noindex" /> {{ end }}
+
+<!-- FontAwesome <https://fontawesome.com/> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" />
+
+<!-- Academicons <https://jpswalsh.github.io/academicons/> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
+
+<!-- risotto theme -->
+<link rel="stylesheet" href="{{ printf "css/palettes/%s.css" (.Site.Params.theme.palette | default "base16-dark") | absURL }}">
+<link rel="stylesheet" href="{{ "css/risotto.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/custom.css" | absURL }}">
+
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="
+      macros = {
+            '\\R': '\\mathbb{R}',
+            '\\Z': '\\mathbb{Z}',
+            '\\ZZ': '\\mathbb{Z}',
+            '\\C': '\\mathbb{C}',
+            '\\NN': '\\mathbb{N}',
+            '\\Q': '\\mathbb{Q}',
+            '\\Qp': '\\mathbb{Q}_p',
+            '\\Fp': '\\mathbb{F}_p',
+            '\\Fq': '\\mathbb{F}_q',
+            '\\p': '\\mathfrak{p}',
+            '\\f': '\\frac{#1}{#2}',
+            '\\t': '\\text{#1}',
+            '\\paren': '\\left(#1\\right)',
+            '\\abs': '\\left|#1\\right|',
+
+      }
+
+      renderMathInElement(document.body, {
+        macros
+      });
+
+      renderMathInElement(document.body, {
+              delimiters: [
+                  {left: '$$', right: '$$', display: true},
+                  {left: '$', right: '$', display: false}
+              ],
+              macros 
+      });
+    ">
+</script>
+
