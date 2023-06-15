@@ -1,6 +1,6 @@
 ---
 title: "Vinogradov's Theorem and the Circle Method"
-date: 2023-06-07T22:48:11-05:00
+date: 2023-06-14T22:48:11-05:00
 ---
 
 #### The Ternary Goldbach Conjecture and Vinogradov's Theorem
@@ -38,8 +38,8 @@ which was proved by Helfgott in 2013.
 {{< figure 
     src="goldbach_xkcd.png" 
     caption="The weak, very weak, and extremely weak conjectures are true. The very strong and extremely strong conjectures are false. The strong conjecture remains open. (Source: [xkcd 1310](https://xkcd.com/1310/))"
-    width=500px
-    height=500px
+    width=700px
+    height=700px
     >}}
 
 
@@ -190,9 +190,9 @@ Abusing notation, we write $S_N(z) := \sum_{n \leq N} \Lambda(n)z^n$.
 Here's a quick crash course if you haven't thought about 
 plots of complex functions too hard before. Given a complex-valued
 function $f$, if $f(z)$ is $(r,\theta)$ in polar 
-coordinates, then the color of the graph of $f$ at the point $z$
+coordinates, then the hue of the graph of $f$ at the point $z$
 tells us about $\theta$ and the brightness at $z$ tells us about 
-$r$. Precisely, ROYGBIV corresponds to $\theta = [0, \2pi)$,
+$r$. Precisely, ROYGBIV corresponds to $\theta = [0, 2\pi)$,
 larger magnitudes are closer to white, and smaller magnitudes are
 closer to black. Zeroes look locally like $z^k$, so we
 expect to see the colors ROYGBIV as we go clockwise around
