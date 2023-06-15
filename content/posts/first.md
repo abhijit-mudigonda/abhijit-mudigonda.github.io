@@ -31,15 +31,12 @@ was broken, my website remained online -- I just couldn't change it.
 This was unfortunate, because during this time, I started graduate school,
 and people actually started looking at my website! 
 Also since starting graduate school, I've written several half-finished expository notes.
-This mostly happens in a rather funny way. 
-
-
-I frequently give talks at student seminars. Every time I do so, I try to choose a topic
+This happens in a rather funny way. I frequently give talks at student seminars. Every time I do so, I try to choose a topic
 that I don't know very much about. Because I am overambitious, I consistently 
 underestimate how long it will take me to actually learn this topic. Because I usually don't mind
 improvising, I have very little sense of urgency when it comes to preparing things. 
-As a result, I almost never finish my notes before the talk happens. Independently,
-I sometimes write down sketches of proofs of interesting results that I hear from Frank
+As a result, I almost never finish my notes before the talk happens. 
+I also sometimes write down sketches of proofs of interesting results that I hear from Frank
 or from other students, but don't always finish them. 
 
 

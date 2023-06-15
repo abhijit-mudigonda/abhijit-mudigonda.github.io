@@ -1,6 +1,6 @@
 ---
 title: "Vinogradov's Theorem and the Circle Method"
-date: 2023-06-14T22:48:11-05:00
+date: 2023-06-14
 ---
 
 #### The Ternary Goldbach Conjecture and Vinogradov's Theorem
@@ -79,7 +79,7 @@ The following lemma is very weak, but demonstrates that $\mathfrak{S}(n) \asymp 
                      \geq e^{-\sum_{n \in \NN} \f{1}{n^2}} 
                      = e^{-\zeta(2)}.\nonumber 
   \end{align}
-$\Box
+$\Box$
 
 Fixing $A$, we see that for large enough $n$, $r_3(n) > 1$ and the ternary Goldbach conjecture holds. 
 Unfortunately, the implicit constant in the asymptotic is ineffective due to the use of Siegel's theorem 
