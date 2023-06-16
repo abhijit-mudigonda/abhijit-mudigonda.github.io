@@ -24,7 +24,3 @@ the [Risotto](https://github.com/joeroe/risotto) theme, and is hosted via
 
 
 I can be contacted by reversing ``moc.liamg@adnogidum.tijibha``. 
-
-
-P.S. - In case you were wondering, the word "pravāham" means "flow"
-in Sanskrit. 

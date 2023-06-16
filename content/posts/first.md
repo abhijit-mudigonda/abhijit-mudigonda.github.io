@@ -30,14 +30,16 @@ After some struggles, I gave up. Because only the local version of my website
 was broken, my website remained online -- I just couldn't change it. 
 This was unfortunate, because during this time, I started graduate school,
 and people actually started looking at my website! 
-Also since starting graduate school, I've written several half-finished expository notes.
-This happens in a rather funny way. I frequently give talks at student seminars. Every time I do so, I try to choose a topic
+Also since starting graduate school, I've tried
+to regularly give talks at student seminars. I usually choose topics
 that I don't know very much about. Because I am overambitious, I consistently 
-underestimate how long it will take me to actually learn this topic. Because I usually don't mind
-improvising, I have very little sense of urgency when it comes to preparing things. 
+underestimate how long it will take me to actually learn these topics.
+Because I usually don't mind improvising, I have very little sense of 
+urgency when it comes to preparing things (apologies
+to anyone who was at my "Isospectral Manifolds" talk).
 As a result, I almost never finish my notes before the talk happens. 
-I also sometimes write down sketches of proofs of interesting results that I hear from Frank
-or from other students, but don't always finish them. 
+I also sometimes write down sketches of proofs of interesting results 
+that I learn from Frank or from other students, and don't always finish them. 
 
 
 This summer, one of my goals is to flesh out several of the notes that I've left unfinished.
