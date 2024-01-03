@@ -6,8 +6,7 @@ These days I mostly think about number theory, but in the past
 I studied quantum computers,
 worked on [mixed reality headsets](https://www.meta.com/quest/quest-pro/), 
 and did [some](https://www.ibo-info.org/en/)
-[not](https://science.osti.gov/wdts/nsb)-
-[math](https://nacloweb.org/)
+[not](https://science.osti.gov/wdts/nsb)-[math](https://nacloweb.org/)
 [competitions](https://pokemonshowdown.com/).
 
 
