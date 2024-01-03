@@ -5,7 +5,7 @@ permalink: /math/
 
 I primarily work in number theory but have broad interests.
 Take a look at my [CV](Mudigonda-CV.pdf) to get 
-a sense of some of the things I've done. 
+a sense of some of the things I've done.
 
 #### Research 
 

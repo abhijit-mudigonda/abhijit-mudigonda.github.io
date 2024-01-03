@@ -1,14 +1,14 @@
-Hello! I'm Abhijit (అభిజిత్, abʱidʒit̪), a second year PhD student at the University of Chicago
+Hello! I'm Abhijit (అభిజిత్, abʱidʒit̪), a third year PhD student at the University of Chicago
 studying mathematics and computer science. I'm advised by 
 Professor [Frank Calegari](https://math.uchicago.edu/~fcale/)
 and Professor [Janos Simon](http://people.cs.uchicago.edu/~simon/). 
 These days I mostly think about number theory, but in the past 
 I studied quantum computers,
 worked on [mixed reality headsets](https://www.meta.com/quest/quest-pro/), 
-and did [lots](https://www.ibo-info.org/en/)
-[of](https://science.osti.gov/wdts/nsb)
-[not](https://nacloweb.org/)-[math](https://www.acs.org/education/students/highschool/olympiad.html)
-[competitions](https://www.soinc.org/).
+and did [some](https://www.ibo-info.org/en/)
+[not](https://science.osti.gov/wdts/nsb)-
+[math](https://nacloweb.org/)
+[competitions](https://pokemonshowdown.com/).
 
 
 In my free time (and sometimes my busy time) I do various things related to music and puzzles.

@@ -13,6 +13,7 @@ which incorporates many different aspects of Indian culture.
 
 Here are some other puzzles I wrote or co-wrote:
 
+- [Kepler's Second Favorite Puzzle](https://puzzles.mit.edu/2023/abcde.puzzlefactory.place/puzzles/keplers-second-favorite-puzzle)
 - [Street Smarts](https://puzzles.mit.edu/2023/interestingthings.museum/puzzles/street-smarts/)
 - [Nuclear Words](https://puzzles.mit.edu/2023/interestingthings.museum/puzzles/nuclear-words/)
 - [A Conspiracy Network](http://ww.devjoe.appspot.com/huntindex/puzzle/mit2023r05m)
