@@ -7,7 +7,7 @@ I studied quantum computers,
 worked on [mixed reality headsets](https://www.meta.com/quest/quest-pro/), 
 and did [some](https://www.ibo-info.org/en/)
 [not](https://science.osti.gov/wdts/nsb)-[math](https://nacloweb.org/)
-[competitions](https://pokemonshowdown.com/).
+[competitions](https://pokemonshowdown.com/). I'm supported by an NSF graduate research fellowship.
 
 
 In my free time (and sometimes my busy time) I do various things related to music and puzzles.
