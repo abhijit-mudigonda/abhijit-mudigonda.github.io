@@ -6,10 +6,10 @@ permalink: /music/
 #### A Cappella Arrangements
 
 Here are some a cappella arrangements I've written or co-written. Many arrangements are mashups of an English song with an Indian-language song (most often Hindi). 
-Most of these pieces were written for the [MIT Ohms][ohms-site] but I've written pieces for other groups as well. My work has been featured on Voices Only 2021
-and BOCA 2024. 
+Most of these pieces were written for the [MIT Ohms][ohms-site] but I've written pieces for other groups as well. My work has been featured on Voices Only,
+BOCA, and been nominated for the CARAs. 
 
-- Jiya Re (o.p.b. A.R. Rahman): [YouTube][jiya-video] and [Spotify][jiya-audio]. Featured on [BOCA 2024][boca]
+- Jiya Re (o.p.b. A.R. Rahman): [YouTube][jiya-video] and [Spotify][jiya-audio]. Featured on [BOCA 2024][boca], nominated for best jazz/big band song and best folk/world song in the [2024 CARAs][cara].
 - Mayya/Emperor's New Clothes (o.p.b. A.R. Rahman and Panic! at the Disco): [PDF](mayya.pdf), [YouTube][mayya-video], and [Spotify][mayya-audio]
 - Aaj Ki Raat (with Rupayan Neogy) (o.p.b Shankar-Ehsaan-Loy): [YouTube][akr-video] and [Spotify][akr-audio]. Featured on [Voices Only 2021 Vol. 2][akr-vo].
 - Permanent/Ennodu Nee Irundhaal (with Dheekshita Kumar and Smrithi Raman)  (o.p.b. Kygo, JHart, and A.R. Rahman): [PDF](permanent.pdf), [YouTube][perm-video], and [Spotify][perm-audio]
@@ -32,6 +32,7 @@ I was a music concentrator (i.e. minor-minor) at MIT, and had a chance to take l
 - A string quartet loosely inspired by carnātic music (classical music of South India) for 21M.310 (20th Century Composition), taught by the marvelous [Charles Shadle][shadle-site]: [PDF](carnaticquartet.pdf)
 
 [boca]: https://open.spotify.com/track/2Tq0Upo4OOrzBK1J0bmLkK?si=a4393e11b96545f8
+[cara]: https://casa.org/2024-contemporary-a-cappella-recording-awards-nominees/
 [jiya-video]: https://www.youtube.com/watch?v=uQCpl31WxCY&ab_channel=Dhamakapella
 [jiya-audio]: https://open.spotify.com/track/6ZGBhDKjbkBhUjgnmkfscS?si=6d301e8467fe493c 
 [akr-vo]: https://open.spotify.com/track/2ZsqnHy8ltWRE4kGIuEXvE?si=lbpBqFCzRQKqJ_izSTz91Q
