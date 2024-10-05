@@ -1,4 +1,4 @@
-Hello! I'm Abhijit (అభిజిత్, abʱidʒit̪), a third year PhD student at the University of Chicago
+Hello! I'm Abhijit (అభిజిత్, abʱidʒit̪), a fourth year PhD student at the University of Chicago
 studying mathematics and computer science. I'm advised by 
 Professor [Frank Calegari](https://math.uchicago.edu/~fcale/)
 and Professor [Janos Simon](http://people.cs.uchicago.edu/~simon/). 
