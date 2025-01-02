@@ -2,54 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>pravāham</title>
-    <link>http://abhijit-mudigonda.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on pravāham</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jun 2023 22:48:11 -0500</lastBuildDate><atom:link href="http://abhijit-mudigonda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vinogradov&#39;s Theorem and the Circle Method</title>
-      <link>http://abhijit-mudigonda.github.io/posts/vinogradov/</link>
-      <pubDate>Wed, 07 Jun 2023 22:48:11 -0500</pubDate>
-      
-      <guid>http://abhijit-mudigonda.github.io/posts/vinogradov/</guid>
-      <description>The Ternary Goldbach Conjecture and Vinogradov&amp;rsquo;s Theorem For $n \in \Z$, let
-$$r_k(n) := \#\lbrace(p_1, p_2, \dots, p_k) \colon p_i \t{ prime, } \sum_{i \leq k} p_i = n\rbrace$$
-In June 1742, Christian Goldbach exchanged letters with Leonhard Euler in which his namesake conjectures were formulated.
-Conjecture 1 (Binary Goldbach): For every even $n &amp;gt; 2$, $r_2(n) &amp;gt; 1$. Conjecture 1 is also known as the strong Goldbach conjecture. Implicit in these letters is a weaker version of the conjectures, which was proved by Helfgott in 2013.</description>
+      <link>http://localhost:1313/posts/vinogradov/</link>
+      <pubDate>Wed, 14 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/vinogradov/</guid>
+      <description>&lt;h4 id=&#34;the-ternary-goldbach-conjecture-and-vinogradovs-theorem&#34;&gt;The Ternary Goldbach Conjecture and Vinogradov&amp;rsquo;s Theorem&lt;/h4&gt;&#xA;&lt;p&gt;For $n \in \Z$, let&lt;/p&gt;&#xA;&lt;p&gt;$$r_k(n) := \#\lbrace(p_1, p_2, \dots, p_k) \colon p_i \t{ prime, } \sum_{i \leq k} p_i = n\rbrace$$&lt;/p&gt;&#xA;&lt;p&gt;In June 1742, Christian Goldbach exchanged letters with&#xA;Leonhard Euler in which his namesake conjectures were&#xA;formulated.&lt;/p&gt;&#xA;&lt;div class=&#34;envbox&#34; style=&#34;background-color:#082C40; border-style:solid; padding: 5px 5px 5px 5px; margin: 5px 5px 10px 0px&#34;&gt;&#xA;  &lt;strong&gt; Conjecture 1 (Binary Goldbach): &lt;/strong&gt;   For every even $n &amp;gt; 2$, $r_2(n) &amp;gt; 1$. &#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&#xA;&lt;p&gt;Conjecture 1 is also known as the strong Goldbach conjecture.&#xA;Implicit in these letters is a weaker version of the conjectures,&#xA;which was proved by Helfgott in 2013.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Math</title>
-      <link>http://abhijit-mudigonda.github.io/math/</link>
+      <link>http://localhost:1313/math/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://abhijit-mudigonda.github.io/math/</guid>
-      <description>I primarily work in number theory but have broad interests. Take a look at my CV to get a sense of some of the things I&amp;rsquo;ve done.
-Research Publications B. Matschke, A. S. Mudigonda. Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere. Journal of Number Theory. Volume 247, June 2023, Pages 162-210 A. S. Mudigonda, R. R. Williams. Time-Space Lower Bounds for Simulating Proof Systems with Quantum and Randomized Verifiers.</description>
+      <guid>http://localhost:1313/math/</guid>
+      <description>&lt;p&gt;I primarily work in number theory but have broad interests.&#xA;Take a look at my &lt;a href=&#34;Mudigonda-CV.pdf&#34;&gt;CV&lt;/a&gt; to get&#xA;a sense of some of the things I&amp;rsquo;ve done.&lt;/p&gt;&#xA;&lt;h4 id=&#34;research&#34;&gt;Research&lt;/h4&gt;&#xA;&lt;h5 id=&#34;publications&#34;&gt;Publications&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;B. Matschke, A. S. Mudigonda. &lt;a href=&#34;https://doi.org/10.1016/j.jnt.2022.11.003&#34;&gt;&lt;em&gt;Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere&lt;/em&gt;&lt;/a&gt;. Journal of Number Theory. Volume 247, June 2023, Pages 162-210&lt;/li&gt;&#xA;&lt;li&gt;A. S. Mudigonda, R. R. Williams. &lt;a href=&#34;https://drops.dagstuhl.de/opus/volltexte/2021/13589/pdf/LIPIcs-ITCS-2021-50.pdf&#34;&gt;&lt;em&gt;Time-Space Lower Bounds for Simulating Proof Systems with Quantum and Randomized Verifiers&lt;/em&gt;&lt;/a&gt;. ITCS 2021: 50:1-50:20.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h5 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A. S. Mudigonda. &lt;a href=&#34;lham-tight-complete.pdf&#34;&gt;&lt;em&gt;An Efficient Reduction from QMATIME[n] to the k-Local Hamiltonians Problem&lt;/em&gt;&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;D. Gutfreund, Q. Fan, A. Mudigonda. &lt;a href=&#34;https://patents.google.com/patent/US11663443B2/en&#34;&gt;&lt;em&gt;Restructuring Deep Neural Networks to Reduce the Number of Parameters&lt;/em&gt;&lt;/a&gt;. (U.S. Patent 1166344382)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;expository-writing&#34;&gt;Expository Writing&lt;/h4&gt;&#xA;&lt;p&gt;Here are some things I wrote as an undergraduate student.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Music</title>
-      <link>http://abhijit-mudigonda.github.io/music/</link>
+      <link>http://localhost:1313/music/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://abhijit-mudigonda.github.io/music/</guid>
-      <description>A Cappella Arrangements Here are some a cappella arrangements I&amp;rsquo;ve written or co-written. Many arrangements are mashups of an English song with an Indian-language song (most often Hindi). Most of these pieces were written for the MIT Ohms but I&amp;rsquo;ve written pieces for other groups as well.
-Mayya/Emperor&amp;rsquo;s New Clothes (o.p.b. A.R. Rahman and Panic! at the Disco): PDF, YouTube, and Spotify Aaj Ki Raat (with Rupayan Neogy) (o.p.b Shankar-Ehsaan-Loy): YouTube and Spotify.</description>
+      <guid>http://localhost:1313/music/</guid>
+      <description>&lt;h4 id=&#34;a-cappella-arrangements&#34;&gt;A Cappella Arrangements&lt;/h4&gt;&#xA;&lt;p&gt;Here are some a cappella arrangements I&amp;rsquo;ve written or co-written. Many arrangements are mashups of an English song with an Indian-language song (most often Hindi).&#xA;Most of these pieces were written for the &lt;a href=&#34;https://ohms.mit.edu&#34;&gt;MIT Ohms&lt;/a&gt; but I&amp;rsquo;ve written pieces for other groups as well. My work has been featured on Voices Only,&#xA;BOCA, and been nominated for the CARAs.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Jiya Re (o.p.b. A.R. Rahman): &lt;a href=&#34;https://www.youtube.com/watch?v=uQCpl31WxCY&amp;amp;ab_channel=Dhamakapella&#34;&gt;YouTube&lt;/a&gt; and &lt;a href=&#34;https://open.spotify.com/track/6ZGBhDKjbkBhUjgnmkfscS?si=6d301e8467fe493c&#34;&gt;Spotify&lt;/a&gt;, performed by &lt;a href=&#34;https://www.dhamakapella.co/&#34;&gt;CWRU Dhamakapella&lt;/a&gt;. Featured on &lt;a href=&#34;https://open.spotify.com/track/2Tq0Upo4OOrzBK1J0bmLkK?si=a4393e11b96545f8&#34;&gt;BOCA 2024&lt;/a&gt;, nominated&#xA;for best jazz/big band song and runner up for best folk/world song in the &lt;a href=&#34;https://casa.org/2024-contemporary-a-cappella-recording-awards-nominees/&#34;&gt;2024 CARAs&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Mayya/Emperor&amp;rsquo;s New Clothes (o.p.b. A.R. Rahman and Panic! at the Disco): &lt;a href=&#34;mayya.pdf&#34;&gt;PDF&lt;/a&gt;, &lt;a href=&#34;https://youtu.be/dp-t4atX-h8&#34;&gt;YouTube&lt;/a&gt;, and &lt;a href=&#34;https://open.spotify.com/track/3XbhsU5PmNj2BcawbE7crk?si=4c210086cf044bbd&#34;&gt;Spotify&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Aaj Ki Raat (with Rupayan Neogy) (o.p.b Shankar-Ehsaan-Loy): &lt;a href=&#34;https://youtu.be/DIS_R_OKlJg&#34;&gt;YouTube&lt;/a&gt; and &lt;a href=&#34;https://open.spotify.com/track/1uCJqYmIQVMW8HAmJto9u6?si=939a8d664b1545f4&#34;&gt;Spotify&lt;/a&gt;. Featured on &lt;a href=&#34;https://open.spotify.com/track/2ZsqnHy8ltWRE4kGIuEXvE?si=lbpBqFCzRQKqJ_izSTz91Q&#34;&gt;Voices Only 2021 Vol. 2&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Permanent/Ennodu Nee Irundhaal (with Dheekshita Kumar and Smrithi Raman)  (o.p.b. Kygo, JHart, and A.R. Rahman): &lt;a href=&#34;permanent.pdf&#34;&gt;PDF&lt;/a&gt;, &lt;a href=&#34;https://youtu.be/7l-ggj3J6Xg&#34;&gt;YouTube&lt;/a&gt;, and &lt;a href=&#34;https://open.spotify.com/track/4b8ht32RrcxBBDlQNDCNhh?si=80681c6174e7459c&#34;&gt;Spotify&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Naina/Imperfection (with Smrithi Raman) (o.p.b. Vishal Bhardwaj, Evanescence): &lt;a href=&#34;https://youtu.be/tU0m3FEhhEo&#34;&gt;YouTube&lt;/a&gt; and &lt;a href=&#34;https://open.spotify.com/track/4VRYgiGX8S1MMMfk16ez4j?si=f4cf3720aa454a66&#34;&gt;Spotify&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Pehli Baar/(I&amp;rsquo;ve Had) the Time of My Life (o.p.b. Shankar-Ehsaan-Loy, Bill Medley, and Jennifer Warnes): &lt;a href=&#34;https://youtu.be/Ju6JNZi0eiw&#34;&gt;YouTube&lt;/a&gt; and &lt;a href=&#34;https://open.spotify.com/track/0fTjFxlvFct6c5MWTawmQg?si=1f1fe9f8df7a4f5b&#34;&gt;Spotify&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Power in Thodi (o.p.b. Amit Heri, Mani Sharma, Kanye West): &lt;a href=&#34;https://youtu.be/7nBPGVz2yBM&#34;&gt;YouTube&lt;/a&gt; and &lt;a href=&#34;https://open.spotify.com/track/1IEWnFt6NMlxrHd3JFLD2b?si=9ea1cffa86c94fc5&#34;&gt;Spotify&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Power (o.p.b. Kanye West): &lt;a href=&#34;https://youtu.be/s8-kZdU6Des&#34;&gt;YouTube&lt;/a&gt; and &lt;a href=&#34;https://open.spotify.com/track/7yMgjSn2Oljukf7oMSiPsE?si=ac994aa8d5314e2c&#34;&gt;Spotify&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Gangsta (o.p.b. Kehlani): &lt;a href=&#34;https://youtu.be/TbMqE_LetFg&#34;&gt;YouTube&lt;/a&gt; and &lt;a href=&#34;https://open.spotify.com/track/4fcSUXl1P125Nw4G981Us5?si=0c4f41707533419d&#34;&gt;Spotify&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Bhare Naina/Sledgehammer (o.p.b. Vishal-Shekhar and Rihanna): &lt;a href=&#34;https://open.spotify.com/track/6YOudxckxLquX6ZiPsvE9u&#34;&gt;Audio&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Sucker (with Hannah Loizzo) (o.p.b. Jonas Brothers)&lt;/li&gt;&#xA;&lt;li&gt;Here We Go Again (o.p.b. Demi Lovato)&lt;/li&gt;&#xA;&lt;li&gt;Wildest Dreams (o.p.b. Taylor Swift)&lt;/li&gt;&#xA;&lt;li&gt;Mitwa/Fireflies (o.p.b. Shankar-Ehsaan-Loy, Owl City)&lt;/li&gt;&#xA;&lt;li&gt;Wait For It/Alvida (o.p.b. Lin-Manuel Miranda, Pritam)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h4&gt;&#xA;&lt;p&gt;I was a music concentrator (i.e. minor-minor) at MIT, and had a chance to take lots of music and theatre classes, with a particular focus on composition.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Puzzles</title>
-      <link>http://abhijit-mudigonda.github.io/puzzles/</link>
+      <link>http://localhost:1313/puzzles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://abhijit-mudigonda.github.io/puzzles/</guid>
-      <description>I was on the writing team for Mystery Hunt 2023.
-The puzzle I&amp;rsquo;m most proud of is To Numbers And Back Again, which incorporates many different aspects of Indian culture.
-Here are some other puzzles I wrote or co-wrote:
-Street Smarts Nuclear Words A Conspiracy Network The Radio Tissues Shared Characters North Carolina Shopping List </description>
+      <guid>http://localhost:1313/puzzles/</guid>
+      <description>&lt;p&gt;I was on the writing team for Mystery Hunt 2023.&lt;/p&gt;&#xA;&lt;p&gt;The puzzle I&amp;rsquo;m most proud of is&#xA;&lt;a href=&#34;https://puzzles.mit.edu/2023/puzzlefactory.place/puzzles/to-numbers-and-back-again/&#34;&gt;To Numbers And Back Again&lt;/a&gt;,&#xA;which incorporates many different aspects of Indian culture.&lt;/p&gt;&#xA;&lt;p&gt;Here are some other puzzles I wrote or co-wrote:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://puzzles.mit.edu/2023/abcde.puzzlefactory.place/puzzles/keplers-second-favorite-puzzle&#34;&gt;Kepler&amp;rsquo;s Second Favorite Puzzle&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://puzzles.mit.edu/2023/interestingthings.museum/puzzles/street-smarts/&#34;&gt;Street Smarts&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://puzzles.mit.edu/2023/interestingthings.museum/puzzles/nuclear-words/&#34;&gt;Nuclear Words&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://ww.devjoe.appspot.com/huntindex/puzzle/mit2023r05m&#34;&gt;A Conspiracy Network&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://puzzles.mit.edu/2023/puzzlefactory.place/office/the-radio/&#34;&gt;The Radio&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://puzzles.mit.edu/2023/puzzlefactory.place/factory-floor/tissues/&#34;&gt;Tissues&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://puzzles.mit.edu/2023/puzzlefactory.place/puzzles/shared-characters/&#34;&gt;Shared Characters&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://puzzles.mit.edu/2023/puzzlefactory.place/puzzles/north-carolina-shopping-list/&#34;&gt;North Carolina Shopping List&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
+    <item>
+      <title>Variation of Hodge Structures Seminar 2025</title>
+      <link>http://localhost:1313/vhs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vhs/</guid>
+      <description>&lt;p&gt;I will be running a weekly learning seminar on variations of Hodge structures in Winter 2025.&lt;/p&gt;&#xA;&lt;p&gt;If you are interested, add yourself to the mailing list for announcements &lt;a href=&#34;vhs-2025@lists.uchicago.edu&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h5 id=&#34;content&#34;&gt;Content&lt;/h5&gt;&#xA;&lt;p&gt;Hodge structures are an abstraction of the cohomology of compact complex projective manifolds.&#xA;They are free modules, typically over $\mathbb{Z}$ or $\mathbb{\Q}$, whose base changes to&#xA;$\mathbb{C}$ satisfy properties like Hodge decomposition and symmetry. Variations of Hodge structures&#xA;are moduli spaces of Hodge structures, and they allow us to study families of motives/varieties/manifolds.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
