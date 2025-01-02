@@ -43,6 +43,11 @@ sectionPagesMenu = "main"
     url = "/puzzles/"
     weight = 12
 
+  [[menu.main]]
+    identifier = "vhs"
+    name = "VHS Seminar"
+    url = "/vhs/"
+    weight = 12
 
 [privacy]
   [privacy.disqus]
