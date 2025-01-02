@@ -7,7 +7,7 @@ permalink: /music/
 
 Here are some a cappella arrangements I've written or co-written. Many arrangements are mashups of an English song with an Indian-language song (most often Hindi). 
 Most of these pieces were written for the [MIT Ohms][ohms-site] but I've written pieces for other groups as well. My work has been featured on Voices Only,
-BOCA, and been nominated for the CARAs. 
+BOCA, and been nominated for the CARAs.
 
 - Jiya Re (o.p.b. A.R. Rahman): [YouTube][jiya-video] and [Spotify][jiya-audio], performed by [CWRU Dhamakapella][dhamaka]. Featured on [BOCA 2024][boca], nominated 
 for best jazz/big band song and runner up for best folk/world song in the [2024 CARAs][cara].
@@ -30,7 +30,8 @@ for best jazz/big band song and runner up for best folk/world song in the [2024 
 
 I was a music concentrator (i.e. minor-minor) at MIT, and had a chance to take lots of music and theatre classes, with a particular focus on composition. 
 
-- A string quartet loosely inspired by carnātic music (classical music of South India) for 21M.310 (20th Century Composition), taught by the marvelous [Charles Shadle][shadle-site]: [PDF](carnaticquartet.pdf)
+- A string quartet loosely inspired by carnātic music (classical music of South India) for 21M.310 (20th Century Composition), taught by the marvelous [Charles Shadle][shadle-site]. 
+I'm not very good at carnātic music and wholly ignorant of string instruments, but it was still fun to try: [PDF](carnaticquartet.pdf)
 
 [boca]: https://open.spotify.com/track/2Tq0Upo4OOrzBK1J0bmLkK?si=a4393e11b96545f8
 [cara]: https://casa.org/2024-contemporary-a-cappella-recording-awards-nominees/
