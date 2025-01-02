@@ -1,0 +1,88 @@
+Throughout this post, I'll assume familiarity with the basic notions of Hodge
+theory. Here's a writeup for anyone curious. 
+
+
+Let $X$ be a smooth and proper complex variety. The various cohomologies of $X$ encapsulates
+important structural information of $X$ in the form of abelian groups and linear algebra.
+For example, if $X$ is defined over $\Q$, the action of the absolute Galois group
+$G_\Q$ on $X$ induces a representation of $G_\Q$ on the (\'{e}tale cohomology) of $X$. 
+Any subvariety induces a cohomology class -- its fundamental class as a submanifold. 
+A natural question is then whether we can go backwards, associating subvarieties to 
+cohomology classes. If so, we could translate objects and maps from the "linearized" setting
+to subvarieties and maps between them. This question is addressed by the Hodge conjecture
+and the Tate conjecture.
+
+
+Let $\mathrm{Hdg}^i(X) \subset H^{2i}_{\t{sing}}(X;\Q)$ denote the \textbf{$\Q$-vector space}
+of \textbf{Hodge classes} -- $\Q$-linear combinations of the fundamental classes of 
+$i$-codimensional complex subvarieties of $X$. \anote{TODO why it's in i,i}
+
+\begin{conjecture}[Hodge]
+  \begin{equation}
+    \label{eq:1}
+    \mathrm{Hdg}^i(X) = H^{2i}_{\t{sing}}(X;\Q) \cap H^{i,i}(X;\C)
+  \end{equation}
+\end{conjecture}
+
+Thus, every cohomology class which "could" arise from a linear combination
+of subvarieties does so. 
+
+\anote{say more here}
+
+
+I hope to say some more about the Hodge and Tate conjectures in a subsequent post, but for
+now I wanted to post about a computation that Professors Madhav Nori and Frank Calegari
+independently assigned to me as an exercise last fall: verify the Hodge conjectures
+when $X$ is a product of elliptic curves, say
+$X = E_1 \times E_2 = \C/\Lambda_1 \times \C/\Lambda_2$.
+
+
+We have
+\[H^{1,1}(X;\C) = \C\angs{dz_1 \wedge d\overline{z_1}, dz_1 \wedge d\overline{z_2}, dz_2 \wedge d\overline{z_1}, dz_2 \wedge d\overline{z_2}} \cong \C^4.\]
+
+Let's compute a basis for $H^2(X;\Q)$ with respect to the basis 
+$\{dz_1, d\overline{z_1}, dz_2, d\overline{z_2}\}$. 
+
+By the K\"unneth formula, 
+\[H^2(X;\Q) \cong H^2(E_1;\Q) \otimes H^0(E_2;\Q) \oplus H^1(E_1;\Q) \otimes H^1(E_2;\Q) \oplus H^0(E_1;\Q) \otimes H^2(E_2;\Q) \cong \Q^6.\]
+The one-dimensional contributions from $H^2(E_1;\Q) \otimes H^0(E_2;\Q)$ and $H^0(E_1;\Q) \otimes H^2(E_2;\Q)$
+are exactly the fundamental classes of subvarieties $O_1 \times E_2$ and $E_1 \times O_2$,
+where $O_i$ is the point at infinity of $E_i$ (the point at infinity
+is a rational point so these are indeed subvarieties).
+
+\begin{remark}
+  It is not true that distinct subvarieties give rise to 
+  distinct cohomology classes. For example, for every rational point
+  $P \in E_1$, the cohomology class associated to $P \times E_2$ is the same.
+  \anote{check this?}
+\end{remark}
+
+It remains to study $H^1(E_1;\Q) \otimes H^1(E_2;\Q)$ and its intersection
+with $H^{1,1}(X;\C)$. 
+
+
+Without loss of generality, let $\Lambda_i := \Z\angs{1,\tau_i} \subset \C$ -- 
+dilating the lattice does not affect the curve up to isomorphism. 
+Then, the line from $0$ to $1$ and the line from $0$ to $\tau_i$
+form a basis for $H_1(\C/\Lambda_i;\Q)$. Call these $l$ and $l'$. 
+By the universal coefficients theorem, 
+\[H^1(\C/\Lambda_i;\Q) \cong \Hom\paren{H_1(\C/\Lambda_i;\Q),\Q},\]
+and a basis is given by forms $\omega, \omega'$ such that 
+\[\int_l \omega = \int_{l'} \omega' = 1, \int_{l'} \omega = \int_l \omega' = 0.\]
+
+
+We can check that 
+\[\
+
+
+
+
+
+
+
+
+
+
+
+
+
