@@ -4,7 +4,7 @@ Professor [Frank Calegari](https://math.uchicago.edu/~fcale/)
 and Professor [Janos Simon](http://people.cs.uchicago.edu/~simon/). 
 These days I mostly think about number theory, but in the past 
 I studied quantum computers,
-worked on [mixed reality headsets](https://www.meta.com/quest/quest-pro/), 
+worked on [mixed reality headsets](https://www.meta.com/quest/), 
 and did [some](https://www.ibo-info.org/en/)
 [not](https://science.osti.gov/wdts/nsb)-[math](https://nacloweb.org/)
 [competitions](https://pokemonshowdown.com/). I'm supported by an NSF graduate research fellowship.
