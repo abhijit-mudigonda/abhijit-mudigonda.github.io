@@ -26,7 +26,7 @@ a sense of some of the things I've done.
 
 #### Expository Writing
 
-Here are some things I wrote as an undergraduate student.  
+Here are some things I wrote as an undergraduate student. You almost surely do not want to read them.
 
 - [Profinite Groups, Infinite Galois Theory, and an application to Kummer Theory](infgalois.pdf): Term paper for 18.704 (Seminar in Algebra), taught by Prof. Bjorn Poonen. 
 - [Sphere Packing in 8 Dimensions](sphere-packing.pdf): Written for 18.786 (Number Theory II), taught by Prof. Wei Zhang, and loosely following [this][cohn-spheres] survey by Henry Cohn

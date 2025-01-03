@@ -3,12 +3,14 @@ title: Puzzles
 permalink: /puzzles/
 ---
 
-I was on the writing team for Mystery Hunt 2023.
+I am a member of the puzzle hunting team [teammate](https://www.puzzles.wiki/wiki/Teammate),
+and was on the writing team for Mystery Hunt 2023.
 
 
 The puzzle I'm most proud of is 
 [To Numbers And Back Again](https://puzzles.mit.edu/2023/puzzlefactory.place/puzzles/to-numbers-and-back-again/),
-which incorporates many different aspects of Indian culture. 
+which incorporates many different aspects of Indian culture.
+
 
 
 Here are some other puzzles I wrote or co-wrote:
