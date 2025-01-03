@@ -18,7 +18,7 @@ Hodge structures are an abstraction of the cohomology of compact complex project
 They are free modules, typically over $\mathbb{Z}$ or $\mathbb{\Q}$, whose base changes to 
 $\mathbb{C}$ satisfy properties like Hodge decomposition and symmetry. Variations of Hodge structures
 are moduli spaces of Hodge structures, and they in turn allow us to study families of motives/varieties/manifolds.
-They appear naturally in geometry (both algebraic and complex/differential), but also have connect to topics like
+They appear naturally in geometry (both algebraic and complex/differential), but also connect to topics like
 Shimura varieties, prismatic F-gauges, and more. 
 
 
