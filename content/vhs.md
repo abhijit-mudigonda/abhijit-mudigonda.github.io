@@ -23,7 +23,7 @@ Shimura varieties, prismatic F-gauges, and more.
 
 
 Some concepts we hope to discuss are the Kodaira-Spencer map, Gauss-Manin connections,
-Griffiths transversality, period domains, and monodromy.
+the Riemann-Hilbert correspondence, Griffiths transversality, period domains, and monodromy.
 
 
 We will probably start by covering Chapters 9 and 10 of 
@@ -36,20 +36,17 @@ We will probably start by covering Chapters 9 and 10 of
 Depends on the participants!
 Currently, beyond the content of the first-year courses, I plan to assume
 familiarity with sheaves and complex manifolds (e.g. 
-to the level of 2.1, 2.3, 4.1, and 4.3 of Voisin). We may start with a crash course of Dolbeault cohomology
-and Hodge theory but it will be helpful to have seen it before. 
+to the level of 2.1, 2.3, 4.1, and 4.3 of Voisin). 
 
 ##### Schedule
 
-
-**Weekly, starting week 2. Exact day/time TBD.**
-
-Right now it looks like Monday 10:30-12 will be a good time, but I'll update based on the Schej.
-
+**Mondays, from 10:30 AM to 12 PM**
 
 I will speak by default. If you would like to speak then please reach out and we can discuss scheduling,
 but there's no pressure at all to do so.
 
 ##### Notes
 
-Notes will be posted here on the day of each talk. 
+A view-only link is [here](https://www.overleaf.com/read/znjbqkhdttyh#40d205). Contact me
+if you'd like the editing link, but everyone on the mailing list should've received it.
+
