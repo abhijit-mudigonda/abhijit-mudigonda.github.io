@@ -47,13 +47,13 @@ sectionPagesMenu = "main"
     identifier = "vhs"
     name = "VHS Seminar"
     url = "/vhs/"
-    weight = 12
+    weight = 13
 
   [[menu.main]]
     identifier = "motives"
     name = "Motives Seminar"
     url = "/motives/"
-    weight = 12
+    weight = 14
 
 [privacy]
   [privacy.disqus]
