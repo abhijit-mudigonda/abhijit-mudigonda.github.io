@@ -11,6 +11,8 @@
     <loc>http://localhost:1313/posts/vinogradov/</loc>
     <lastmod>2023-06-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/motives/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/math/</loc>
