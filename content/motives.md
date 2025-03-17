@@ -29,15 +29,15 @@ lucrative Hodge conjecture.)
 
 We will probably start by covering portions of the following:
 - Chapter 11 of *Complex Geometry and Hodge Theory Vol. 1*, by Claire Voisin
-- *Hodge cycles on algebraic varieties*, by Pierre Deligne (notes by James Milne)
-- *Algebraic Cycles and the Weil Conjectures*, by Daniel Kleiman
-- *The Standard Conjectures*, by Daniel Kleiman
+- [*Hodge Cycles on Algebraic Varieties*](https://www.jmilne.org/math/Documents/Deligne82.pdf), by Pierre Deligne (notes by James Milne)
+- [*Algebraic Cycles and the Weil Conjectures*](https://download.uni-mainz.de/mathematik/Algebraische%20Geometrie/Lehre/WS23.Padische.1966.kleiman.weil.pdf), by Daniel Kleiman
+- [*The Standard Conjectures*](https://download.uni-mainz.de/mathematik/Algebraische%20Geometrie/Lehre/WS23.Padische1994.Kleiman.Standard.Conjectures.pdf), by Daniel Kleiman
 
 
 Because the standard conjectures remain open, in practice people seem to replace the category
 of algebraic cycles with either the category of motivated cycles (due to Yves André)
-or the category of absolute Hodge cycles (due to Deligne). If we had time, I would like
-to discuss André's category of motivated cycles.
+or the category of absolute Hodge cycles (due to Deligne). If we have time, I would like
+to discuss André's category of motivated cycles. 
 
 ##### Prerequisites
 
