@@ -45,14 +45,15 @@ Depends on the participants!
 Currently, I don't expect that much will be strictly necessary beyond the first-year courses.
 We will make occasional use of sheaves and complex manifolds (e.g. 
 to the level of 2.1, 2.3, 4.1, and 4.3 of Voisin). 
-It may be difficult to appreciate the general theory 
-of motives without familiarity with the Hodge and Lefschetz decompositions of complex
-algebraic geometry.
-
+I encourage participants to familiarize themselves with the Hodge and Lefschetz decompositions of complex
+algebraic geometry, as it may be difficult to appreciate some of the general theory without that motivation.
 
 ##### Schedule
 
 TBD! Fill out the [Schej](https://schej.it/e/2e6ec) to help decide :) 
+
+
+Because I have some upcoming travel, we may not have our first meeting until Week 3.
 
 
 I will speak by default. If you would like to speak then please reach out and we can discuss scheduling,
