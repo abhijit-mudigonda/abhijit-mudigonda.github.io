@@ -13,7 +13,7 @@ a meeting time, and add yourself to the
 
 ##### Content
 
-Cohomology provides a way to traslate problems from the foreboding world of algebraic geometry
+Cohomology provides a way to translate problems from the foreboding world of algebraic geometry
 to the more accessible landscape of linear algebra. The theory of motives 
 generalizes and unifies the various cohomology theories associated to an algebraic variety.
 Indeed, a (pure of weight $k$, irreducible) motive (over $\Q$ with coefficients in $\Q$)
@@ -34,10 +34,12 @@ We will probably start by covering portions of the following:
 - [*The Standard Conjectures*](https://download.uni-mainz.de/mathematik/Algebraische%20Geometrie/Lehre/WS23.Padische1994.Kleiman.Standard.Conjectures.pdf), by Daniel Kleiman
 
 
-Because the standard conjectures remain open, in practice people seem to replace the category
+Because the standard conjectures remain open, in practice people often replace the category
 of algebraic cycles with either the category of motivated cycles (due to Yves André)
-or the category of absolute Hodge cycles (due to Deligne). If we have time, I would like
-to discuss André's category of motivated cycles. 
+or the category of absolute Hodge cycles (due to Deligne). For example, we can't prove that
+all Hodge classes on an abelian variety are algebraic (the Hodge conjecture for abelian varieties)
+but we do know that they are motivated. If we have time, I would like to discuss 
+André's category of motivated cycles. 
 
 ##### Prerequisites
 
