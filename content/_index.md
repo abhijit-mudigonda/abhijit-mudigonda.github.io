@@ -22,4 +22,4 @@ the [Risotto](https://github.com/joeroe/risotto) theme, and is hosted via
 [Github Pages](https://pages.github.com/). 
 
 
-I can be contacted by reversing ``moc.liamg@adnogidum.tijibha``. 
+I can be contacted by reversing ``moc.liamg@adnogidum.tijihba``. 
