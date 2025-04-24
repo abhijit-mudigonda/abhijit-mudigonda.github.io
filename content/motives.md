@@ -1,9 +1,9 @@
 ---
-title: Algebraic Cycles and Motives - Spring 2025
+title: Algebraic Cycles and Motives - May 2025
 permalink: /motives/
 ---
 
-I will be running a weekly learning seminar on algebraic cycles and motives in Spring 2025.
+I will be running a weekly learning seminar on algebraic cycles and motives in May 2025.
 
 
 If you are interested, let me know, fill out the [Schej](https://schej.it/e/2e6ec) to help us decide
@@ -38,9 +38,7 @@ Because the standard conjectures remain open, in practice people often replace t
 of algebraic cycles with either the category of motivated cycles (due to Yves André)
 or the category of absolute Hodge cycles (due to Deligne). For example, we can't prove that
 all Hodge classes on an abelian variety are algebraic (the Hodge conjecture for abelian varieties)
-but we do know that they are motivated. If we have time, I would like to discuss 
-André's category of motivated cycles. 
-
+but we do know that they are motivated.
 ##### Prerequisites
 
 Depends on the participants!
@@ -55,10 +53,13 @@ algebraic geometry, as it may be difficult to appreciate some of the general the
 TBD! Fill out the [Schej](https://schej.it/e/2e6ec) to help decide :) 
 
 
-Because I have some upcoming travel, we may not have our first meeting until Week 3.
+This was initially going to run all Spring, but I had some unexpected travel and 
+then some unexpected work. As such, this will run during the month of May, starting
+the week of May 5th. 
 
 
-I will speak by default. If you would like to speak then please reach out and we can discuss scheduling,
+I am planning to speak all four weeks. 
+If you would like to speak then please reach out and we can discuss scheduling,
 but there's no pressure at all to do so.
 
 
