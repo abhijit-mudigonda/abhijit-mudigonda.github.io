@@ -3,13 +3,7 @@ title: Variations of Hodge Structures - Winter 2025
 permalink: /vhs/
 ---
 
-I will be running a weekly learning seminar on variations of Hodge structures in Winter 2025.
-
-
-If you are interested, let me know, fill out the [Schej](https://schej.it/e/Fa9aa) to help us decide
-a meeting time, and add yourself to the 
-[mailing list](https://lists.uchicago.edu/web/admin/vhs-2025) for announcements.
-
+I ran a weekly learning seminar on variations of Hodge structures in Winter 2025.
 
 ##### Content
 

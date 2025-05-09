@@ -3,11 +3,10 @@ title: Algebraic Cycles and Motives - May 2025
 permalink: /motives/
 ---
 
-I will be running a weekly learning seminar on algebraic cycles and motives in May 2025.
+I am running a weekly learning seminar on algebraic cycles and motives in May 2025.
 
 
-If you are interested, let me know, fill out the [Schej](https://schej.it/e/2e6ec) to help us decide
-a meeting time, and add yourself to the 
+If you are interested, let me know and add yourself to the 
 [mailing list](https://lists.uchicago.edu/web/admin/motives) for announcements.
 
 
@@ -29,8 +28,8 @@ lucrative Hodge conjecture.)
 
 We will probably start by covering portions of the following:
 - Chapter 11 of *Complex Geometry and Hodge Theory Vol. 1*, by Claire Voisin
-- [*Hodge Cycles on Algebraic Varieties*](https://www.jmilne.org/math/Documents/Deligne82.pdf), by Pierre Deligne (notes by James Milne)
 - [*Algebraic Cycles and the Weil Conjectures*](https://download.uni-mainz.de/mathematik/Algebraische%20Geometrie/Lehre/WS23.Padische.1966.kleiman.weil.pdf), by Daniel Kleiman
+- [*Hodge Cycles on Algebraic Varieties*](https://www.jmilne.org/math/Documents/Deligne82.pdf), by Pierre Deligne (notes by James Milne)
 - [*The Standard Conjectures*](https://download.uni-mainz.de/mathematik/Algebraische%20Geometrie/Lehre/WS23.Padische1994.Kleiman.Standard.Conjectures.pdf), by Daniel Kleiman
 
 
@@ -50,19 +49,17 @@ algebraic geometry, as it may be difficult to appreciate some of the general the
 
 ##### Schedule
 
-TBD! Fill out the [Schej](https://schej.it/e/2e6ec) to help decide :) 
-
+**Fridays, from 3:30 PM to 5 PM**
 
 This was initially going to run all Spring, but I had some unexpected travel and 
 then some unexpected work. As such, this will run during the month of May, starting
 the week of May 5th. 
 
-
-I am planning to speak all four weeks. 
-If you would like to speak then please reach out and we can discuss scheduling,
-but there's no pressure at all to do so.
-
+I will speak all four weeks. 
 
 ##### Notes
 
 Notes will be posted here on the day of each lecture.
+
+A view-only link is [here](https://www.overleaf.com/read/xqfvxnsfvykp#bebb7c). Contact me
+if you'd like the editing link, but everyone on the mailing list should've received it.
