@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Title }} - Redirecting...</title>
+    {{ with .Params.redirect_to }}
+    <meta http-equiv="refresh" content="0; url={{ . }}">
+    <script>window.location.replace("{{ . }}");</script>
+    {{ end }}
+</head>
+<body>
+    <p>Redirecting to <a href="{{ .Params.redirect_to }}">{{ .Title }}</a>...</p>
+    <p>If you are not redirected automatically, please <a href="{{ .Params.redirect_to }}">click here</a>.</p>
+</body>
+</html>
