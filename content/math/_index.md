@@ -16,9 +16,10 @@ a sense of some of the things I've done.
 - B. Matschke, A. S. Mudigonda. [_Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere_][quad-egr]. Journal of Number Theory. Volume 247, June 2023, Pages 162-210
 - A. S. Mudigonda, R. R. Williams. [_Time-Space Lower Bounds for Simulating Proof Systems with Quantum and Randomized Verifiers_][qma-lb]. ITCS 2021: 50:1-50:20.
 
-<!--
 ##### Preprints
--->
+
+- A. S. Mudigonda. [_Computing Hilbert modular forms with nonparitious weight_](ants-nonpar.pdf). To appear in Research in Number Theory. 
+- A. S. Mudigonda. [_Computing Hilbert modular forms with nontrivial nebentypus_](hmf-neb.pdf). In preparation.
 
 ##### Miscellaneous 
 - A. S. Mudigonda. [_An Efficient Reduction from QMATIME[n] to the k-Local Hamiltonians Problem_](lham-tight-complete.pdf).
@@ -41,5 +42,4 @@ Here are some things I wrote as an undergraduate student. You almost surely do n
 [qma-lb]: https://drops.dagstuhl.de/opus/volltexte/2021/13589/pdf/LIPIcs-ITCS-2021-50.pdf
 [patent-link]: https://patents.google.com/patent/US11663443B2/en
 [quad-egr]: https://doi.org/10.1016/j.jnt.2022.11.003
-
 
