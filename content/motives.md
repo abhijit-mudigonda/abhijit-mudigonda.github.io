@@ -1,6 +1,7 @@
 ---
 title: Algebraic Cycles and Motives - May 2025
 permalink: /motives/
+draft: true
 ---
 
 I ran a weekly learning seminar on algebraic cycles and motives in May 2025.
