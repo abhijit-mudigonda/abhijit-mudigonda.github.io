@@ -49,12 +49,6 @@ sectionPagesMenu = "main"
     url = "/vhs/"
     weight = 13
 
-  [[menu.main]]
-    identifier = "motives"
-    name = "Motives Seminar"
-    url = "/motives/"
-    weight = 14
-
 [privacy]
   [privacy.disqus]
     disable = true
