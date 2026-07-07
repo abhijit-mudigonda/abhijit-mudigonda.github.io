@@ -13,13 +13,16 @@ a sense of some of the things I've done.
 ##### Publications
 
 
+- A. S. Mudigonda. [_Computing Hilbert modular forms with nonparitious weight_](ants-nonpar.pdf). To appear in Proceedings of ANTS XVII.
 - B. Matschke, A. S. Mudigonda. [_Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere_][quad-egr]. Journal of Number Theory. Volume 247, June 2023, Pages 162-210
 - A. S. Mudigonda, R. R. Williams. [_Time-Space Lower Bounds for Simulating Proof Systems with Quantum and Randomized Verifiers_][qma-lb]. ITCS 2021: 50:1-50:20.
 
 ##### Preprints
 
-- A. S. Mudigonda. [_Computing Hilbert modular forms with nonparitious weight_](ants-nonpar.pdf). To appear in Research in Number Theory. 
-- A. S. Mudigonda. [_Computing Hilbert modular forms with nontrivial nebentypus_](hmf-neb.pdf). In preparation.
+- E. Assaf, A. S. Mudigonda. [_Computing Hilbert modular forms with nontrivial nebentypus_](hmf-neb.pdf). In preparation.
+- E. Assaf, A. Babei, B. Breen, S. Chari, E. Costa, J. Duque-Rosero,
+A. Horawa, J. Kieffer, A. Kulkarni, G. Molnar, A. S. Mudigonda, M. Musty, S. Schiavone, 
+S. Sethi, S. Tripp, J. Voight. _Computing with Fourier expansions of Hilbert modular forms_. In preparation.
 
 ##### Miscellaneous 
 - A. S. Mudigonda. [_An Efficient Reduction from QMATIME[n] to the k-Local Hamiltonians Problem_](lham-tight-complete.pdf).
