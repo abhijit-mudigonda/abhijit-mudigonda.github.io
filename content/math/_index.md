@@ -13,7 +13,7 @@ a sense of some of the things I've done.
 ##### Publications
 
 
-- A. S. Mudigonda. [_Computing Hilbert modular forms with nonparitious weight_](ants-nonpar.pdf). To appear in Proceedings of ANTS XVII.
+- A. S. Mudigonda. [_Computing Hilbert modular forms with nonparitious weight_](ants-nonpar.pdf). Research in Number Theory, 2026. Proceedings of the Algorithmic Number Theory Symposium XVII, to appear.
 - B. Matschke, A. S. Mudigonda. [_Quadratic Fields Admitting Elliptic Curves with Rational $j$-Invariant and Good Reduction Everywhere_][quad-egr]. Journal of Number Theory. Volume 247, June 2023, Pages 162-210
 - A. S. Mudigonda, R. R. Williams. [_Time-Space Lower Bounds for Simulating Proof Systems with Quantum and Randomized Verifiers_][qma-lb]. ITCS 2021: 50:1-50:20.
 
