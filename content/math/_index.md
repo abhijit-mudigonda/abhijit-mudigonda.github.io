@@ -19,7 +19,8 @@ a sense of some of the things I've done.
 
 ##### Preprints
 
-- E. Assaf, A. S. Mudigonda. [_Computing Hilbert modular forms with nontrivial nebentypus_](hmf-neb.pdf). In preparation.
+- A. S. Mudigonda. [_Potential modularity of some atypical abelian fourfolds_](type-ii.pdf). 
+- E. Assaf, A. S. Mudigonda. [_Computing Hilbert modular forms with nontrivial nebentypus_](hmf-neb.pdf). 
 - E. Assaf, A. Babei, B. Breen, S. Chari, E. Costa, J. Duque-Rosero,
 A. Horawa, J. Kieffer, A. Kulkarni, G. Molnar, A. S. Mudigonda, M. Musty, S. Schiavone, 
 S. Sethi, S. Tripp, J. Voight. _Computing with Fourier expansions of Hilbert modular forms_. In preparation.
